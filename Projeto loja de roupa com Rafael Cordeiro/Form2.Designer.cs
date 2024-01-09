@@ -33,6 +33,10 @@
             label2 = new Label();
             button1 = new Button();
             button2 = new Button();
+            label3 = new Label();
+            checkBox1 = new CheckBox();
+            button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -77,12 +81,65 @@
             button2.TabIndex = 3;
             button2.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Showcard Gothic", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.Purple;
+            label3.Location = new Point(484, 95);
+            label3.Name = "label3";
+            label3.Size = new Size(63, 21);
+            label3.TabIndex = 4;
+            label3.Text = "Log In";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.Transparent;
+            checkBox1.Font = new Font("Showcard Gothic", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
+            checkBox1.ForeColor = Color.Purple;
+            checkBox1.Location = new Point(657, 293);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(206, 25);
+            checkBox1.TabIndex = 5;
+            checkBox1.Text = "Mostrar Password";
+            checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Transparent;
+            button3.Font = new Font("Showcard Gothic", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button3.ForeColor = Color.Purple;
+            button3.Location = new Point(468, 358);
+            button3.Name = "button3";
+            button3.Size = new Size(120, 39);
+            button3.TabIndex = 6;
+            button3.Text = "confirmar";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Transparent;
+            button4.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.Purple;
+            button4.Location = new Point(644, 352);
+            button4.Name = "button4";
+            button4.Size = new Size(187, 45);
+            button4.TabIndex = 7;
+            button4.Text = "Ainda não tem conta? Registar";
+            button4.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1047, 598);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(checkBox1);
+            Controls.Add(label3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label2);
@@ -99,5 +156,9 @@
         private Label label2;
         private Button button1;
         private Button button2;
+        private Label label3;
+        private CheckBox checkBox1;
+        private Button button3;
+        private Button button4;
     }
 }
