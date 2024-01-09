@@ -79,7 +79,7 @@
             button2.FlatAppearance.BorderColor = Color.Black;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.ButtonFace;
+            button2.ForeColor = Color.FromArgb(192, 0, 192);
             button2.Location = new Point(96, 188);
             button2.Name = "button2";
             button2.Size = new Size(337, 386);
@@ -94,7 +94,7 @@
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = Color.FromArgb(192, 0, 192);
-            button3.Location = new Point(500, 188);
+            button3.Location = new Point(493, 188);
             button3.Name = "button3";
             button3.Size = new Size(337, 386);
             button3.TabIndex = 4;
@@ -103,13 +103,13 @@
             // 
             // button4
             // 
-            button4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button4.AutoSize = true;
             button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
             button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = Color.Purple;
             button4.Location = new Point(913, 188);
             button4.Name = "button4";
             button4.Size = new Size(346, 386);
