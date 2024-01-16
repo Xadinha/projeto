@@ -111,6 +111,7 @@
             ANTCRbtn.TabIndex = 7;
             ANTCRbtn.Text = "Ainda não tem conta? Registar";
             ANTCRbtn.UseVisualStyleBackColor = false;
+            ANTCRbtn.Click += ANTCRbtn_Click;
             // 
             // NUtxt
             // 

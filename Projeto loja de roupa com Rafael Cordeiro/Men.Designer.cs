@@ -45,6 +45,7 @@
             TSbtn.TabIndex = 0;
             TSbtn.Text = "Tshirts\r\nSweats\r\n";
             TSbtn.UseVisualStyleBackColor = true;
+            TSbtn.Click += TSbtn_Click;
             // 
             // CCbtn
             // 
@@ -58,6 +59,7 @@
             CCbtn.TabIndex = 1;
             CCbtn.Text = "Calças\r\nCalções\r\n";
             CCbtn.UseVisualStyleBackColor = true;
+            CCbtn.Click += CCbtn_Click;
             // 
             // Men
             // 

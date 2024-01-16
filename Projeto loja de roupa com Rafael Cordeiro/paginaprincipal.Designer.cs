@@ -100,6 +100,7 @@
             womenbtn.TabIndex = 4;
             womenbtn.Text = "Women";
             womenbtn.UseVisualStyleBackColor = true;
+            womenbtn.Click += womenbtn_Click;
             // 
             // paginaprincipal
             // 

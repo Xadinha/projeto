@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Women));
             CSCbtn = new Button();
             TTTbtn = new Button();
+            bttn_anterior = new Button();
             SuspendLayout();
             // 
             // CSCbtn
@@ -45,6 +46,7 @@
             CSCbtn.TabIndex = 0;
             CSCbtn.Text = "Calças\r\nSaias\r\nCalções\r\n";
             CSCbtn.UseVisualStyleBackColor = true;
+            CSCbtn.Click += CSCbtn_Click;
             // 
             // TTTbtn
             // 
@@ -58,6 +60,20 @@
             TTTbtn.TabIndex = 1;
             TTTbtn.Text = "Tops\r\nTshirts\r\nsweats\r\n\r\n";
             TTTbtn.UseVisualStyleBackColor = true;
+            TTTbtn.Click += TTTbtn_Click;
+            // 
+            // bttn_anterior
+            // 
+            bttn_anterior.BackColor = Color.Transparent;
+            bttn_anterior.Font = new Font("Showcard Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            bttn_anterior.ForeColor = Color.FromArgb(192, 0, 192);
+            bttn_anterior.Location = new Point(720, 64);
+            bttn_anterior.Name = "bttn_anterior";
+            bttn_anterior.Size = new Size(109, 23);
+            bttn_anterior.TabIndex = 2;
+            bttn_anterior.Text = "Anterior";
+            bttn_anterior.UseVisualStyleBackColor = false;
+            bttn_anterior.Click += button1_Click;
             // 
             // Women
             // 
@@ -65,6 +81,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(884, 572);
+            Controls.Add(bttn_anterior);
             Controls.Add(TTTbtn);
             Controls.Add(CSCbtn);
             Name = "Women";
@@ -76,5 +93,6 @@
 
         private Button CSCbtn;
         private Button TTTbtn;
+        private Button bttn_anterior;
     }
 }

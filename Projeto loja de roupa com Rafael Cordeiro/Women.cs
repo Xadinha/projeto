@@ -16,5 +16,27 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         {
             InitializeComponent();
         }
+
+        private void TTTbtn_Click(object sender, EventArgs e)
+        {
+            Womanbody womanbody = new Womanbody();
+            womanbody.Show();
+        }
+
+        private void CSCbtn_Click(object sender, EventArgs e)
+        {
+            WomanLegs womanlegs = new WomanLegs();
+            womanlegs.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close(); // Fecha o Form2
+
+            if (formAnterior != null && !formAnterior.IsDisposed)
+            {
+                formAnterior.Show(); // Exibe o formulário anterior
+            }
+        }
     }
 }

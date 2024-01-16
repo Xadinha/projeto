@@ -21,5 +21,11 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         {
 
         }
+
+        private void ANTCRbtn_Click(object sender, EventArgs e)
+        {
+            Registar registar = new Registar();
+            registar.Show();
+        }
     }
 }
