@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
 {
-    public partial class Form2 : Form
+    public partial class LogIN : Form
     {
-        public Form2()
+        public LogIN()
         {
             InitializeComponent();
+        }
+
+        private void LogIN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
