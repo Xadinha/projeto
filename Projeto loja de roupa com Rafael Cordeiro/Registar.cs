@@ -65,6 +65,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 NovoNome = NUtxt.Text;
                 NovaPassword = PASStxt.Text;
                 MessageBox.Show($"Verificado como {NUtxt.Text}.");
+                nome_utilizador.nomeutilizador = NUtxt.Text;
                 paginaprincipal principal = new paginaprincipal();
                 this.Hide();
                 principal.Show();
