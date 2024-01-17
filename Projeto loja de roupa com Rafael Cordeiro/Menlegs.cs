@@ -16,5 +16,17 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         {
             InitializeComponent();
         }
+
+        private void bttn_sair_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
+        private void bttn_anterior_Click(object sender, EventArgs e)
+        {
+            Men men = new Men ();
+            this.Hide();
+            men.Show();
+        }
     }
 }

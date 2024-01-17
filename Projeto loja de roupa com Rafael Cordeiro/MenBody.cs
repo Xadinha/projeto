@@ -151,5 +151,22 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         private void pictureBox1_Click(object sender, EventArgs e)
         {
         }
+
+        private void bttn_anterior_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Environment.Exit(1);
+        }
+
+        private void bttn_anterior_Click_1(object sender, EventArgs e)
+        {
+            Men men = new Men();
+            this.Hide();
+            men.Show();
+        }
     }
 }

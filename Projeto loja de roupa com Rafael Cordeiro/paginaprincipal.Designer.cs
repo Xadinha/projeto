@@ -34,6 +34,7 @@
             loginbtn = new Button();
             menbtn = new Button();
             womenbtn = new Button();
+            bttn_sair = new Button();
             SuspendLayout();
             // 
             // label1
@@ -44,7 +45,7 @@
             label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(646, 40);
             label1.Name = "label1";
-            label1.Size = new Size(0, 19);
+            label1.Size = new Size(0, 28);
             label1.TabIndex = 0;
             label1.Click += label1_Click;
             // 
@@ -53,7 +54,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(248, 209);
             label2.Name = "label2";
-            label2.Size = new Size(0, 15);
+            label2.Size = new Size(0, 25);
             label2.TabIndex = 1;
             // 
             // loginbtn
@@ -102,20 +103,34 @@
             womenbtn.UseVisualStyleBackColor = true;
             womenbtn.Click += womenbtn_Click;
             // 
+            // bttn_sair
+            // 
+            bttn_sair.BackColor = Color.Transparent;
+            bttn_sair.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            bttn_sair.Location = new Point(647, 76);
+            bttn_sair.Name = "bttn_sair";
+            bttn_sair.Size = new Size(112, 34);
+            bttn_sair.TabIndex = 5;
+            bttn_sair.Text = "Sair";
+            bttn_sair.UseVisualStyleBackColor = false;
+            bttn_sair.Click += bttn_sair_Click;
+            // 
             // paginaprincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(884, 572);
+            Controls.Add(bttn_sair);
             Controls.Add(womenbtn);
             Controls.Add(menbtn);
             Controls.Add(loginbtn);
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "paginaprincipal";
             Text = "Form1";
             Load += Form1_Load;
@@ -130,5 +145,6 @@
         private Button loginbtn;
         private Button menbtn;
         private Button womenbtn;
+        private Button bttn_sair;
     }
 }
