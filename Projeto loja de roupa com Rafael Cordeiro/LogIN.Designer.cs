@@ -140,7 +140,6 @@
             PASStxt.Name = "PASStxt";
             PASStxt.Size = new Size(264, 51);
             PASStxt.TabIndex = 9;
-            PASStxt.TextChanged += PASStxt_TextChanged;
             // 
             // bttn_anterior
             // 
@@ -185,7 +184,6 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "LogIN";
             Text = "Form2";
-            Load += LogIN_Load;
             ResumeLayout(false);
             PerformLayout();
         }

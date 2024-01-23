@@ -50,7 +50,6 @@
             label1.Name = "label1";
             label1.Size = new Size(0, 28);
             label1.TabIndex = 0;
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -129,7 +128,6 @@
             LabelUtilizador.Size = new Size(88, 28);
             LabelUtilizador.TabIndex = 6;
             LabelUtilizador.Text = "label3";
-            LabelUtilizador.Click += label3_Click;
             // 
             // bttn_carrinho
             // 
@@ -180,7 +178,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "paginaprincipal";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

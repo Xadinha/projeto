@@ -20,29 +20,16 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             PASStxt.UseSystemPasswordChar = true;
             CPASStxt.UseSystemPasswordChar = true;
         }
-
-        private void Registar_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void bttn_sair_Click(object sender, EventArgs e)
         {
             Environment.Exit(1);
         }
-
         private void bttn_anterior_Click(object sender, EventArgs e)
         {
             LogIN login = new LogIN();
             this.Hide();
             login.Show();
         }
-
         private void checkPASS2_CheckedChanged(object sender, EventArgs e)
         {
             if (checkPASS2.Checked)
@@ -57,7 +44,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
 
             }
         }
-
         private void REGISTARbtn_Click(object sender, EventArgs e)
         {
             if (PASStxt.Text == CPASStxt.Text)

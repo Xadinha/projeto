@@ -14,8 +14,8 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
     {
         public MenBody()
         {
-            itens_carrinho.AtualizarLabelComContagem(numero_itens);
             InitializeComponent();
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
             panel1.AutoScroll = false;
             panel1.HorizontalScroll.Enabled = false;
             panel1.HorizontalScroll.Visible = false;
@@ -33,169 +33,103 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 LabelUtilizador.Visible = true;
             }
         }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void bttn_carrinho_Click(object sender, EventArgs e)
         {
-
+            carrinho pagar = new carrinho();
+            this.Hide();
+            pagar.Show();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void MBbtn1_Click(object sender, EventArgs e)
         {
-
+            string nome = "sweat spyder azul homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void MBbtn2_Click(object sender, EventArgs e)
         {
-
+            string nome = "sweat spyder preta homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void checkMB2_SelectedIndexChanged(object sender, EventArgs e)
+        private void MBbtn3_Click(object sender, EventArgs e)
         {
+            string nome = "sweat sem capuz preta homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void checkMB3_SelectedIndexChanged(object sender, EventArgs e)
+        private void MBbtn4_Click(object sender, EventArgs e)
         {
+            string nome = "sweat com capuz azul escuro homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void checkedListBox5_SelectedIndexChanged(object sender, EventArgs e)
+        private void MBbtn5_Click(object sender, EventArgs e)
         {
+            string nome = "sweat com capuz azul claro homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void checkedListBox6_SelectedIndexChanged(object sender, EventArgs e)
+        private void MBbtn6_Click(object sender, EventArgs e)
         {
+            string nome = "sweat com capuz rosa homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void checkedListBox7_SelectedIndexChanged(object sender, EventArgs e)
+        private void MBbtn7_Click(object sender, EventArgs e)
         {
+            string nome = "sweat sem capuz creme baggy homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
-        private void checkedListBox8_SelectedIndexChanged(object sender, EventArgs e)
+        private void MBbtn8_Click(object sender, EventArgs e)
         {
-        }
-
-        private void checkedListBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
+            string nome = "sweat sem capuz creme homem";
+            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
+            string tamanho = "M";
+            string preço = label1.Text;
+            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void bttn_anterior_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Environment.Exit(1);
-        }
-
-        private void bttn_anterior_Click_1(object sender, EventArgs e)
         {
             Men men = new Men();
             this.Hide();
             men.Show();
         }
 
-        private void panel1_Scroll(object sender, ScrollEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void bttn_carrinho_Click(object sender, EventArgs e)
-        {
-            carrinho pagar = new carrinho();
-            this.Hide();
-            pagar.Show();
+            Environment.Exit(1);
         }
     }
 }

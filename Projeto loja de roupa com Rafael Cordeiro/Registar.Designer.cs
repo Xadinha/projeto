@@ -114,7 +114,6 @@
             NUtxt.Name = "NUtxt";
             NUtxt.Size = new Size(264, 46);
             NUtxt.TabIndex = 6;
-            NUtxt.TextChanged += textBox1_TextChanged;
             // 
             // PASStxt
             // 
@@ -193,7 +192,6 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "Registar";
             Text = "Registar";
-            Load += Registar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

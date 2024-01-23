@@ -22,24 +22,16 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             }
             itens_carrinho.AtualizarLabelComPrecoTotal(label5);
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void bttn_sair_Click(object sender, EventArgs e)
         {
             Environment.Exit(1);
         }
-
         private void bttn_anterior_Click(object sender, EventArgs e)
         {
             paginaprincipal principal = new paginaprincipal();
             this.Hide();
             principal.Show();
-        }
-
+        } 
         private void MPbtn_Click(object sender, EventArgs e)
         {
             if (nome_utilizador.nomeutilizador == "")
@@ -52,7 +44,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 { MessageBox.Show("Obrigado por comprar na nossa loja"); }
             }
         }
-
         private void Limpar_bttn_Click(object sender, EventArgs e)
         {
             // Limpa a ListBox
@@ -64,7 +55,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             // Atualiza a Label com o preço total
             itens_carrinho.AtualizarLabelComPrecoTotal(label5);
         }
-
         private void Apagar_Click(object sender, EventArgs e)
         {
             // Verifica se há pelo menos um item na ListBox

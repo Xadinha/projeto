@@ -20,12 +20,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             InitializeComponent();
             PASStxt.UseSystemPasswordChar = true;
         }
-
-        private void LogIN_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void ANTCRbtn_Click(object sender, EventArgs e)
         {
             Registar registar = new Registar();
@@ -34,19 +28,16 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             nome = registar.NovoNome;
             password = registar.NovaPassword;
         }
-
         private void bttn_sair_Click(object sender, EventArgs e)
         {
             Environment.Exit(1);
         }
-
         private void bttn_anterior_Click(object sender, EventArgs e)
         {
             paginaprincipal principal = new paginaprincipal();
             this.Hide();
             principal.Show();
         }
-
         private void CONFIRMARbtn_Click(object sender, EventArgs e)
         {
             string inputNome = NUtxt.Text;
@@ -61,7 +52,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 MessageBox.Show("Falha no login. Verifique suas credenciais.");
             }
         }
-
         private void checkPASS_CheckedChanged(object sender, EventArgs e)
         {
             if (checkPASS.Checked)
@@ -72,11 +62,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             {
                 PASStxt.UseSystemPasswordChar = true;
             }
-        }
-
-        private void PASStxt_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

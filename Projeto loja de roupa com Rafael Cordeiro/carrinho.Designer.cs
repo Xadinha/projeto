@@ -56,7 +56,6 @@
             NCtxt.Name = "NCtxt";
             NCtxt.Size = new Size(434, 31);
             NCtxt.TabIndex = 1;
-            NCtxt.TextChanged += textBox1_TextChanged;
             // 
             // MPbtn
             // 

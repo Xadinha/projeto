@@ -144,7 +144,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "Men";
             Text = "Men";
-            Load += Men_Load;
             ResumeLayout(false);
             PerformLayout();
         }

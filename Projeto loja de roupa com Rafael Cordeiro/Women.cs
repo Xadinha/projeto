@@ -16,7 +16,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         {
             InitializeComponent();
             itens_carrinho.AtualizarLabelComContagem(numero_itens);
-
             if (nome_utilizador.nomeutilizador == "")
             {
                 LabelUtilizador.Visible = false;
@@ -29,26 +28,22 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 LabelUtilizador.Visible = true;
             }
         }
-
         private void TTTbtn_Click(object sender, EventArgs e)
         {
             Womanbody womanbody = new Womanbody();
             this.Hide();
             womanbody.Show();
         }
-
         private void CSCbtn_Click(object sender, EventArgs e)
         {
             WomanLegs womanlegs = new WomanLegs();
             this.Hide();
             womanlegs.Show();
         }
-
         private void bttn_sair_Click(object sender, EventArgs e)
         {
             Environment.Exit(1);
         }
-
         private void bttn_anterior_Click(object sender, EventArgs e)
         {
             paginaprincipal principal = new paginaprincipal();
@@ -56,7 +51,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             principal.Show();
 
         }
-
         private void bttn_carrinho_Click(object sender, EventArgs e)
         {
             carrinho pagar = new carrinho();

@@ -90,80 +90,72 @@
             // 
             checkWB1.FormattingEnabled = true;
             checkWB1.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB1.Location = new Point(40, 345);
-            checkWB1.Margin = new Padding(4, 5, 4, 5);
+            checkWB1.Location = new Point(28, 207);
             checkWB1.Name = "checkWB1";
-            checkWB1.Size = new Size(107, 88);
+            checkWB1.Size = new Size(76, 40);
             checkWB1.TabIndex = 8;
             // 
             // checkWB2
             // 
             checkWB2.FormattingEnabled = true;
             checkWB2.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB2.Location = new Point(334, 345);
-            checkWB2.Margin = new Padding(4, 5, 4, 5);
+            checkWB2.Location = new Point(234, 207);
             checkWB2.Name = "checkWB2";
-            checkWB2.Size = new Size(107, 88);
+            checkWB2.Size = new Size(76, 40);
             checkWB2.TabIndex = 20;
             // 
             // checkWB4
             // 
             checkWB4.FormattingEnabled = true;
             checkWB4.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB4.Location = new Point(920, 345);
-            checkWB4.Margin = new Padding(4, 5, 4, 5);
+            checkWB4.Location = new Point(644, 207);
             checkWB4.Name = "checkWB4";
-            checkWB4.Size = new Size(107, 88);
+            checkWB4.Size = new Size(76, 40);
             checkWB4.TabIndex = 28;
             // 
             // checkWB3
             // 
             checkWB3.FormattingEnabled = true;
             checkWB3.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB3.Location = new Point(626, 345);
-            checkWB3.Margin = new Padding(4, 5, 4, 5);
+            checkWB3.Location = new Point(438, 207);
             checkWB3.Name = "checkWB3";
-            checkWB3.Size = new Size(107, 88);
+            checkWB3.Size = new Size(76, 40);
             checkWB3.TabIndex = 24;
             // 
             // checkWB8
             // 
             checkWB8.FormattingEnabled = true;
             checkWB8.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB8.Location = new Point(920, 782);
-            checkWB8.Margin = new Padding(4, 5, 4, 5);
+            checkWB8.Location = new Point(644, 469);
             checkWB8.Name = "checkWB8";
-            checkWB8.Size = new Size(107, 88);
+            checkWB8.Size = new Size(76, 40);
             checkWB8.TabIndex = 44;
             // 
             // checkWB7
             // 
             checkWB7.FormattingEnabled = true;
             checkWB7.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB7.Location = new Point(626, 782);
-            checkWB7.Margin = new Padding(4, 5, 4, 5);
+            checkWB7.Location = new Point(438, 469);
             checkWB7.Name = "checkWB7";
-            checkWB7.Size = new Size(107, 88);
+            checkWB7.Size = new Size(76, 40);
             checkWB7.TabIndex = 40;
             // 
             // checkWB6
             // 
             checkWB6.FormattingEnabled = true;
             checkWB6.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB6.Location = new Point(334, 782);
-            checkWB6.Margin = new Padding(4, 5, 4, 5);
+            checkWB6.Location = new Point(234, 469);
             checkWB6.Name = "checkWB6";
-            checkWB6.Size = new Size(107, 88);
+            checkWB6.Size = new Size(76, 40);
             checkWB6.TabIndex = 36;
             // 
             // checkWB5
             // 
             checkWB5.FormattingEnabled = true;
             checkWB5.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB5.Location = new Point(40, 782);
-            checkWB5.Margin = new Padding(4, 5, 4, 5);
+            checkWB5.Location = new Point(28, 469);
             checkWB5.Name = "checkWB5";
-            checkWB5.Size = new Size(107, 88);
+            checkWB5.Size = new Size(76, 40);
             checkWB5.TabIndex = 32;
             // 
             // panel1
@@ -201,32 +193,30 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(checkWB1);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(17, 198);
-            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Location = new Point(12, 119);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1207, 717);
+            panel1.Size = new Size(845, 430);
             panel1.TabIndex = 2;
             // 
             // WBbtn8
             // 
             WBbtn8.BackColor = Color.Transparent;
-            WBbtn8.Location = new Point(1037, 782);
-            WBbtn8.Margin = new Padding(4, 5, 4, 5);
+            WBbtn8.Location = new Point(726, 469);
             WBbtn8.Name = "WBbtn8";
-            WBbtn8.Size = new Size(107, 88);
+            WBbtn8.Size = new Size(75, 53);
             WBbtn8.TabIndex = 46;
             WBbtn8.Text = "Adicionar ao Carrinho";
             WBbtn8.UseVisualStyleBackColor = false;
+            WBbtn8.Click += WBbtn8_Click;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.ForeColor = Color.White;
-            label5.Location = new Point(1070, 465);
-            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Location = new Point(749, 279);
             label5.Name = "label5";
-            label5.Size = new Size(95, 25);
+            label5.Size = new Size(61, 15);
             label5.TabIndex = 45;
             label5.Text = "Preço: 30€";
             // 
@@ -234,33 +224,31 @@
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
             pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox5.Location = new Point(920, 465);
-            pictureBox5.Margin = new Padding(4, 5, 4, 5);
+            pictureBox5.Location = new Point(644, 279);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(237, 413);
+            pictureBox5.Size = new Size(166, 248);
             pictureBox5.TabIndex = 43;
             pictureBox5.TabStop = false;
             // 
             // WBbtn7
             // 
             WBbtn7.BackColor = Color.Transparent;
-            WBbtn7.Location = new Point(743, 782);
-            WBbtn7.Margin = new Padding(4, 5, 4, 5);
+            WBbtn7.Location = new Point(520, 469);
             WBbtn7.Name = "WBbtn7";
-            WBbtn7.Size = new Size(107, 88);
+            WBbtn7.Size = new Size(75, 53);
             WBbtn7.TabIndex = 42;
             WBbtn7.Text = "Adicionar ao Carrinho";
             WBbtn7.UseVisualStyleBackColor = false;
+            WBbtn7.Click += WBbtn7_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.ForeColor = Color.White;
-            label6.Location = new Point(776, 465);
-            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Location = new Point(543, 279);
             label6.Name = "label6";
-            label6.Size = new Size(95, 25);
+            label6.Size = new Size(61, 15);
             label6.TabIndex = 41;
             label6.Text = "Preço: 30€";
             // 
@@ -268,33 +256,31 @@
             // 
             pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
             pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox6.Location = new Point(626, 465);
-            pictureBox6.Margin = new Padding(4, 5, 4, 5);
+            pictureBox6.Location = new Point(438, 279);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(237, 413);
+            pictureBox6.Size = new Size(166, 248);
             pictureBox6.TabIndex = 39;
             pictureBox6.TabStop = false;
             // 
             // WBbtn6
             // 
             WBbtn6.BackColor = Color.Transparent;
-            WBbtn6.Location = new Point(451, 782);
-            WBbtn6.Margin = new Padding(4, 5, 4, 5);
+            WBbtn6.Location = new Point(316, 469);
             WBbtn6.Name = "WBbtn6";
-            WBbtn6.Size = new Size(107, 88);
+            WBbtn6.Size = new Size(75, 53);
             WBbtn6.TabIndex = 38;
             WBbtn6.Text = "Adicionar ao Carrinho";
             WBbtn6.UseVisualStyleBackColor = false;
+            WBbtn6.Click += WBbtn6_Click;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.ForeColor = Color.White;
-            label7.Location = new Point(484, 465);
-            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Location = new Point(339, 279);
             label7.Name = "label7";
-            label7.Size = new Size(95, 25);
+            label7.Size = new Size(61, 15);
             label7.TabIndex = 37;
             label7.Text = "Preço: 15€";
             // 
@@ -302,33 +288,31 @@
             // 
             pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
             pictureBox7.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox7.Location = new Point(334, 465);
-            pictureBox7.Margin = new Padding(4, 5, 4, 5);
+            pictureBox7.Location = new Point(234, 279);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(237, 413);
+            pictureBox7.Size = new Size(166, 248);
             pictureBox7.TabIndex = 35;
             pictureBox7.TabStop = false;
             // 
             // WBbtn5
             // 
             WBbtn5.BackColor = Color.Transparent;
-            WBbtn5.Location = new Point(157, 782);
-            WBbtn5.Margin = new Padding(4, 5, 4, 5);
+            WBbtn5.Location = new Point(110, 469);
             WBbtn5.Name = "WBbtn5";
-            WBbtn5.Size = new Size(107, 88);
+            WBbtn5.Size = new Size(75, 53);
             WBbtn5.TabIndex = 34;
             WBbtn5.Text = "Adicionar ao Carrinho";
             WBbtn5.UseVisualStyleBackColor = false;
+            WBbtn5.Click += WBbtn5_Click;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.BackColor = Color.Transparent;
             label8.ForeColor = Color.White;
-            label8.Location = new Point(190, 465);
-            label8.Margin = new Padding(4, 0, 4, 0);
+            label8.Location = new Point(133, 279);
             label8.Name = "label8";
-            label8.Size = new Size(95, 25);
+            label8.Size = new Size(61, 15);
             label8.TabIndex = 33;
             label8.Text = "Preço: 15€";
             // 
@@ -336,33 +320,31 @@
             // 
             pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
             pictureBox8.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox8.Location = new Point(40, 465);
-            pictureBox8.Margin = new Padding(4, 5, 4, 5);
+            pictureBox8.Location = new Point(28, 279);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(237, 413);
+            pictureBox8.Size = new Size(166, 248);
             pictureBox8.TabIndex = 31;
             pictureBox8.TabStop = false;
             // 
             // WBbtn4
             // 
             WBbtn4.BackColor = Color.Transparent;
-            WBbtn4.Location = new Point(1037, 345);
-            WBbtn4.Margin = new Padding(4, 5, 4, 5);
+            WBbtn4.Location = new Point(726, 207);
             WBbtn4.Name = "WBbtn4";
-            WBbtn4.Size = new Size(107, 88);
+            WBbtn4.Size = new Size(75, 53);
             WBbtn4.TabIndex = 30;
             WBbtn4.Text = "Adicionar ao Carrinho";
             WBbtn4.UseVisualStyleBackColor = false;
+            WBbtn4.Click += WBbtn4_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(1070, 28);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(749, 17);
             label2.Name = "label2";
-            label2.Size = new Size(95, 25);
+            label2.Size = new Size(61, 15);
             label2.TabIndex = 29;
             label2.Text = "Preço: 15€";
             // 
@@ -370,33 +352,31 @@
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(920, 28);
-            pictureBox2.Margin = new Padding(4, 5, 4, 5);
+            pictureBox2.Location = new Point(644, 17);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(237, 413);
+            pictureBox2.Size = new Size(166, 248);
             pictureBox2.TabIndex = 27;
             pictureBox2.TabStop = false;
             // 
             // WBbtn3
             // 
             WBbtn3.BackColor = Color.Transparent;
-            WBbtn3.Location = new Point(743, 345);
-            WBbtn3.Margin = new Padding(4, 5, 4, 5);
+            WBbtn3.Location = new Point(520, 207);
             WBbtn3.Name = "WBbtn3";
-            WBbtn3.Size = new Size(107, 88);
+            WBbtn3.Size = new Size(75, 53);
             WBbtn3.TabIndex = 26;
             WBbtn3.Text = "Adicionar ao Carrinho";
             WBbtn3.UseVisualStyleBackColor = false;
+            WBbtn3.Click += WBbtn3_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.ForeColor = Color.White;
-            label3.Location = new Point(776, 28);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(543, 17);
             label3.Name = "label3";
-            label3.Size = new Size(95, 25);
+            label3.Size = new Size(61, 15);
             label3.TabIndex = 25;
             label3.Text = "Preço: 30€";
             // 
@@ -404,33 +384,31 @@
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(626, 28);
-            pictureBox3.Margin = new Padding(4, 5, 4, 5);
+            pictureBox3.Location = new Point(438, 17);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(237, 413);
+            pictureBox3.Size = new Size(166, 248);
             pictureBox3.TabIndex = 23;
             pictureBox3.TabStop = false;
             // 
             // WBbtn2
             // 
             WBbtn2.BackColor = Color.Transparent;
-            WBbtn2.Location = new Point(451, 345);
-            WBbtn2.Margin = new Padding(4, 5, 4, 5);
+            WBbtn2.Location = new Point(316, 207);
             WBbtn2.Name = "WBbtn2";
-            WBbtn2.Size = new Size(107, 88);
+            WBbtn2.Size = new Size(75, 53);
             WBbtn2.TabIndex = 22;
             WBbtn2.Text = "Adicionar ao Carrinho";
             WBbtn2.UseVisualStyleBackColor = false;
+            WBbtn2.Click += WBbtn2_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(484, 28);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Location = new Point(339, 17);
             label4.Name = "label4";
-            label4.Size = new Size(95, 25);
+            label4.Size = new Size(61, 15);
             label4.TabIndex = 21;
             label4.Text = "Preço: 20€";
             // 
@@ -438,33 +416,31 @@
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
             pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox4.Location = new Point(334, 28);
-            pictureBox4.Margin = new Padding(4, 5, 4, 5);
+            pictureBox4.Location = new Point(234, 17);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(237, 413);
+            pictureBox4.Size = new Size(166, 248);
             pictureBox4.TabIndex = 19;
             pictureBox4.TabStop = false;
             // 
             // WBbtn1
             // 
             WBbtn1.BackColor = Color.Transparent;
-            WBbtn1.Location = new Point(157, 345);
-            WBbtn1.Margin = new Padding(4, 5, 4, 5);
+            WBbtn1.Location = new Point(110, 207);
             WBbtn1.Name = "WBbtn1";
-            WBbtn1.Size = new Size(107, 88);
+            WBbtn1.Size = new Size(75, 53);
             WBbtn1.TabIndex = 10;
             WBbtn1.Text = "Adicionar ao Carrinho";
             WBbtn1.UseVisualStyleBackColor = false;
+            WBbtn1.Click += WBbtn1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(190, 28);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(133, 17);
             label1.Name = "label1";
-            label1.Size = new Size(95, 25);
+            label1.Size = new Size(61, 15);
             label1.TabIndex = 9;
             label1.Text = "Preço: 15€";
             // 
@@ -472,19 +448,19 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(40, 28);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
+            pictureBox1.Location = new Point(28, 17);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(237, 413);
+            pictureBox1.Size = new Size(166, 248);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // bttn_anterior
             // 
-            bttn_anterior.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bttn_anterior.Location = new Point(982, 131);
+            bttn_anterior.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            bttn_anterior.Location = new Point(687, 79);
+            bttn_anterior.Margin = new Padding(2);
             bttn_anterior.Name = "bttn_anterior";
-            bttn_anterior.Size = new Size(112, 34);
+            bttn_anterior.Size = new Size(78, 20);
             bttn_anterior.TabIndex = 7;
             bttn_anterior.Text = "Anterior";
             bttn_anterior.UseVisualStyleBackColor = true;
@@ -493,10 +469,11 @@
             // bttn_sair
             // 
             bttn_sair.BackColor = Color.Transparent;
-            bttn_sair.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bttn_sair.Location = new Point(1112, 131);
+            bttn_sair.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            bttn_sair.Location = new Point(778, 79);
+            bttn_sair.Margin = new Padding(2);
             bttn_sair.Name = "bttn_sair";
-            bttn_sair.Size = new Size(112, 34);
+            bttn_sair.Size = new Size(78, 20);
             bttn_sair.TabIndex = 6;
             bttn_sair.Text = "Sair";
             bttn_sair.UseVisualStyleBackColor = false;
@@ -506,11 +483,12 @@
             // 
             LabelUtilizador.AutoSize = true;
             LabelUtilizador.BackColor = Color.Transparent;
-            LabelUtilizador.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            LabelUtilizador.Font = new Font("Microsoft Sans Serif", 11F, FontStyle.Regular, GraphicsUnit.Point);
             LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
-            LabelUtilizador.Location = new Point(572, 131);
+            LabelUtilizador.Location = new Point(400, 79);
+            LabelUtilizador.Margin = new Padding(2, 0, 2, 0);
             LabelUtilizador.Name = "LabelUtilizador";
-            LabelUtilizador.Size = new Size(88, 28);
+            LabelUtilizador.Size = new Size(46, 18);
             LabelUtilizador.TabIndex = 14;
             LabelUtilizador.Text = "label3";
             // 
@@ -521,11 +499,12 @@
             bttn_carrinho.BackgroundImageLayout = ImageLayout.Stretch;
             bttn_carrinho.FlatAppearance.BorderColor = Color.Black;
             bttn_carrinho.FlatStyle = FlatStyle.Popup;
-            bttn_carrinho.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bttn_carrinho.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
-            bttn_carrinho.Location = new Point(136, 110);
+            bttn_carrinho.Location = new Point(95, 66);
+            bttn_carrinho.Margin = new Padding(2);
             bttn_carrinho.Name = "bttn_carrinho";
-            bttn_carrinho.Size = new Size(81, 74);
+            bttn_carrinho.Size = new Size(57, 44);
             bttn_carrinho.TabIndex = 15;
             bttn_carrinho.UseVisualStyleBackColor = false;
             bttn_carrinho.Click += bttn_carrinho_Click;
@@ -534,20 +513,21 @@
             // 
             numero_itens.AutoSize = true;
             numero_itens.BackColor = Color.Transparent;
-            numero_itens.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            numero_itens.Font = new Font("Microsoft Sans Serif", 11F, FontStyle.Regular, GraphicsUnit.Point);
             numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
-            numero_itens.Location = new Point(223, 156);
+            numero_itens.Location = new Point(156, 94);
+            numero_itens.Margin = new Padding(2, 0, 2, 0);
             numero_itens.Name = "numero_itens";
-            numero_itens.Size = new Size(23, 28);
+            numero_itens.Size = new Size(16, 18);
             numero_itens.TabIndex = 17;
             numero_itens.Text = "?";
             // 
             // Womanbody
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1263, 953);
+            ClientSize = new Size(884, 572);
             Controls.Add(numero_itens);
             Controls.Add(bttn_carrinho);
             Controls.Add(LabelUtilizador);
@@ -555,7 +535,6 @@
             Controls.Add(bttn_sair);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 5, 4, 5);
             Name = "Womanbody";
             Text = "Womanbody";
             panel1.ResumeLayout(false);

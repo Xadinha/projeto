@@ -28,38 +28,28 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 LabelUtilizador.Visible = true;
             }
         }
-
         private void TSbtn_Click(object sender, EventArgs e)
         {
             MenBody menbody = new MenBody();
             this.Hide();
             menbody.Show();
         }
-
         private void CCbtn_Click(object sender, EventArgs e)
         {
             Menlegs menlegs = new Menlegs();
             this.Hide();
             menlegs.Show();
         }
-
-        private void Men_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void bttn_sair_Click(object sender, EventArgs e)
         {
             Environment.Exit(1);
         }
-
         private void bttn_anterior_Click(object sender, EventArgs e)
         {
             paginaprincipal principal = new paginaprincipal();
             this.Hide();
             principal.Show();
         }
-
         private void bttn_carrinho_Click(object sender, EventArgs e)
         {
             carrinho pagar = new carrinho();
