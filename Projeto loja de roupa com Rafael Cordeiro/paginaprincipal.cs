@@ -7,6 +7,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         public paginaprincipal()
         {
             InitializeComponent();
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
             if (nome_utilizador.nomeutilizador == "")
             {
                 LabelUtilizador.Visible = false;

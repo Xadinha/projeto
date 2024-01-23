@@ -15,6 +15,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         public Menlegs()
         {
             InitializeComponent();
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
             panel1.AutoScroll = false;
             panel1.HorizontalScroll.Enabled = false;
             panel1.HorizontalScroll.Visible = false;
@@ -32,7 +33,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 LabelUtilizador.Visible = true;
             }
         }
-
         private void bttn_sair_Click(object sender, EventArgs e)
         {
             Environment.Exit(1);
@@ -59,6 +59,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -73,6 +74,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void MLbtn3_Click(object sender, EventArgs e)
@@ -82,6 +84,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void MLbtn4_Click(object sender, EventArgs e)
@@ -91,6 +94,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
@@ -120,6 +124,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void MLbtn6_Click(object sender, EventArgs e)
@@ -129,6 +134,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void MLbtn7_Click(object sender, EventArgs e)
@@ -138,6 +144,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
 
         private void MLbtn8_Click(object sender, EventArgs e)
@@ -147,6 +154,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string tamanho = "M";
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
         }
     }
 }

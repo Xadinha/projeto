@@ -15,6 +15,8 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         public Womanbody()
         {
             InitializeComponent();
+            itens_carrinho.AtualizarLabelComContagem(numero_itens);
+
             panel1.AutoScroll = false;
             panel1.HorizontalScroll.Enabled = false;
             panel1.HorizontalScroll.Visible = false;

@@ -562,7 +562,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1263, 953);
+            ClientSize = new Size(1263, 1023);
             Controls.Add(numero_itens);
             Controls.Add(bttn_carrinho);
             Controls.Add(LabelUtilizador);

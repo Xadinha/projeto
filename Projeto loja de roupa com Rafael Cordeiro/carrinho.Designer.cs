@@ -45,6 +45,8 @@
             bttn_anterior = new Button();
             bttn_sair = new Button();
             LBC = new ListBox();
+            Limpar_bttn = new Button();
+            Apagar = new Button();
             SuspendLayout();
             // 
             // NCtxt
@@ -69,6 +71,7 @@
             MPbtn.TabIndex = 2;
             MPbtn.Text = " Confirmar";
             MPbtn.UseVisualStyleBackColor = false;
+            MPbtn.Click += MPbtn_Click;
             // 
             // label1
             // 
@@ -141,7 +144,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(720, 804);
+            label5.Location = new Point(720, 679);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(53, 25);
@@ -220,8 +223,38 @@
             LBC.ItemHeight = 25;
             LBC.Location = new Point(119, 200);
             LBC.Name = "LBC";
-            LBC.Size = new Size(594, 629);
+            LBC.Size = new Size(594, 504);
             LBC.TabIndex = 16;
+            // 
+            // Limpar_bttn
+            // 
+            Limpar_bttn.BackColor = Color.White;
+            Limpar_bttn.BackgroundImageLayout = ImageLayout.Zoom;
+            Limpar_bttn.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Limpar_bttn.ForeColor = Color.FromArgb(192, 0, 192);
+            Limpar_bttn.Location = new Point(119, 744);
+            Limpar_bttn.Margin = new Padding(4, 5, 4, 5);
+            Limpar_bttn.Name = "Limpar_bttn";
+            Limpar_bttn.Size = new Size(254, 58);
+            Limpar_bttn.TabIndex = 17;
+            Limpar_bttn.Text = "Limpar";
+            Limpar_bttn.UseVisualStyleBackColor = false;
+            Limpar_bttn.Click += Limpar_bttn_Click;
+            // 
+            // Apagar
+            // 
+            Apagar.BackColor = Color.White;
+            Apagar.BackgroundImageLayout = ImageLayout.Zoom;
+            Apagar.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Apagar.ForeColor = Color.FromArgb(192, 0, 192);
+            Apagar.Location = new Point(437, 744);
+            Apagar.Margin = new Padding(4, 5, 4, 5);
+            Apagar.Name = "Apagar";
+            Apagar.Size = new Size(276, 58);
+            Apagar.TabIndex = 18;
+            Apagar.Text = "Apagar Último Item";
+            Apagar.UseVisualStyleBackColor = false;
+            Apagar.Click += Apagar_Click;
             // 
             // carrinho
             // 
@@ -229,6 +262,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1429, 838);
+            Controls.Add(Apagar);
+            Controls.Add(Limpar_bttn);
             Controls.Add(LBC);
             Controls.Add(bttn_anterior);
             Controls.Add(bttn_sair);
@@ -270,5 +305,7 @@
         private Button bttn_anterior;
         private Button bttn_sair;
         private ListBox LBC;
+        private Button Limpar_bttn;
+        private Button Apagar;
     }
 }
