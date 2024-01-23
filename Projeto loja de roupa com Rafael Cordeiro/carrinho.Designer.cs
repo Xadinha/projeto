@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(carrinho));
-            LBC = new ListBox();
             NCtxt = new TextBox();
             MPbtn = new Button();
             label1 = new Label();
@@ -45,23 +44,12 @@
             MEtxt = new TextBox();
             bttn_anterior = new Button();
             bttn_sair = new Button();
+            LBC = new ListBox();
             SuspendLayout();
-            // 
-            // LBC
-            // 
-            LBC.BorderStyle = BorderStyle.FixedSingle;
-            LBC.ForeColor = Color.Black;
-            LBC.FormattingEnabled = true;
-            LBC.ItemHeight = 25;
-            LBC.Location = new Point(129, 230);
-            LBC.Margin = new Padding(4, 5, 4, 5);
-            LBC.Name = "LBC";
-            LBC.Size = new Size(383, 527);
-            LBC.TabIndex = 0;
             // 
             // NCtxt
             // 
-            NCtxt.Location = new Point(783, 230);
+            NCtxt.Location = new Point(952, 230);
             NCtxt.Margin = new Padding(4, 5, 4, 5);
             NCtxt.Name = "NCtxt";
             NCtxt.Size = new Size(434, 31);
@@ -74,7 +62,7 @@
             MPbtn.BackgroundImageLayout = ImageLayout.Zoom;
             MPbtn.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
             MPbtn.ForeColor = Color.FromArgb(192, 0, 192);
-            MPbtn.Location = new Point(879, 700);
+            MPbtn.Location = new Point(1048, 700);
             MPbtn.Margin = new Padding(4, 5, 4, 5);
             MPbtn.Name = "MPbtn";
             MPbtn.Size = new Size(254, 58);
@@ -101,7 +89,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(192, 0, 192);
-            label2.Location = new Point(560, 230);
+            label2.Location = new Point(729, 230);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(188, 23);
@@ -114,7 +102,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(192, 0, 192);
-            label3.Location = new Point(573, 352);
+            label3.Location = new Point(742, 352);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(172, 46);
@@ -127,7 +115,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.FromArgb(192, 0, 192);
-            label4.Location = new Point(614, 465);
+            label4.Location = new Point(783, 465);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(43, 23);
@@ -136,7 +124,7 @@
             // 
             // DVtxt
             // 
-            DVtxt.Location = new Point(783, 352);
+            DVtxt.Location = new Point(952, 352);
             DVtxt.Margin = new Padding(4, 5, 4, 5);
             DVtxt.Name = "DVtxt";
             DVtxt.Size = new Size(434, 31);
@@ -144,7 +132,7 @@
             // 
             // CVCtxt
             // 
-            CVCtxt.Location = new Point(783, 465);
+            CVCtxt.Location = new Point(952, 465);
             CVCtxt.Margin = new Padding(4, 5, 4, 5);
             CVCtxt.Name = "CVCtxt";
             CVCtxt.Size = new Size(434, 31);
@@ -153,7 +141,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(129, 763);
+            label5.Location = new Point(720, 804);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(53, 25);
@@ -175,7 +163,7 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.FromArgb(192, 0, 192);
-            label6.Location = new Point(611, 465);
+            label6.Location = new Point(780, 465);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(43, 23);
@@ -188,7 +176,7 @@
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.FromArgb(192, 0, 192);
-            label7.Location = new Point(553, 592);
+            label7.Location = new Point(722, 592);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(194, 23);
@@ -197,7 +185,7 @@
             // 
             // MEtxt
             // 
-            MEtxt.Location = new Point(783, 588);
+            MEtxt.Location = new Point(952, 588);
             MEtxt.Margin = new Padding(4, 5, 4, 5);
             MEtxt.Name = "MEtxt";
             MEtxt.Size = new Size(434, 31);
@@ -226,12 +214,22 @@
             bttn_sair.UseVisualStyleBackColor = false;
             bttn_sair.Click += bttn_sair_Click;
             // 
+            // LBC
+            // 
+            LBC.FormattingEnabled = true;
+            LBC.ItemHeight = 25;
+            LBC.Location = new Point(119, 200);
+            LBC.Name = "LBC";
+            LBC.Size = new Size(594, 629);
+            LBC.TabIndex = 16;
+            // 
             // carrinho
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1429, 838);
+            Controls.Add(LBC);
             Controls.Add(bttn_anterior);
             Controls.Add(bttn_sair);
             Controls.Add(MEtxt);
@@ -247,7 +245,6 @@
             Controls.Add(label1);
             Controls.Add(MPbtn);
             Controls.Add(NCtxt);
-            Controls.Add(LBC);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 5, 4, 5);
             Name = "carrinho";
@@ -257,8 +254,6 @@
         }
 
         #endregion
-
-        private ListBox LBC;
         private TextBox NCtxt;
         private Button MPbtn;
         private Label label1;
@@ -274,5 +269,6 @@
         private TextBox MEtxt;
         private Button bttn_anterior;
         private Button bttn_sair;
+        private ListBox LBC;
     }
 }

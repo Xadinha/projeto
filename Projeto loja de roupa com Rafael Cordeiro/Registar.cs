@@ -60,7 +60,7 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
 
         private void REGISTARbtn_Click(object sender, EventArgs e)
         {
-            if (PASStxt == CPASStxt)
+            if (PASStxt.Text == CPASStxt.Text)
             {
                 NovoNome = NUtxt.Text;
                 NovaPassword = PASStxt.Text;

@@ -31,11 +31,8 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             Registar registar = new Registar();
             this.Hide();
             registar.Show();
-            if (registar.ShowDialog() == DialogResult.OK)
-            {
-                nome = registar.NovoNome;
-                password = registar.NovaPassword;
-            }
+            nome = registar.NovoNome;
+            password = registar.NovaPassword;
         }
 
         private void bttn_sair_Click(object sender, EventArgs e)

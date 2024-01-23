@@ -15,6 +15,17 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         public Women()
         {
             InitializeComponent();
+            if (nome_utilizador.nomeutilizador == "")
+            {
+                LabelUtilizador.Visible = false;
+                LabelUtilizador.Enabled = false;
+            }
+            else
+            {
+                LabelUtilizador.Enabled = true;
+                LabelUtilizador.Text = nome_utilizador.nomeutilizador;
+                LabelUtilizador.Visible = true;
+            }
         }
 
         private void TTTbtn_Click(object sender, EventArgs e)
@@ -42,6 +53,13 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             this.Hide();
             principal.Show();
 
+        }
+
+        private void bttn_carrinho_Click(object sender, EventArgs e)
+        {
+            carrinho pagar = new carrinho();
+            this.Hide();
+            pagar.Show();
         }
     }
 }

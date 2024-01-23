@@ -15,6 +15,11 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         public carrinho()
         {
             InitializeComponent();
+            foreach (itens_carrinho itens_carrinho in itens_carrinho.listaitens)
+            {
+                LBC.Items.Add($"{itens_carrinho.Nome} |{itens_carrinho.Tamanho} | {itens_carrinho.Preço}");
+
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

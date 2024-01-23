@@ -8,6 +8,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
 {
     public static class nome_utilizador
     {
-        public static string nomeutilizador;
+        public static string nomeutilizador="";
     }
 }

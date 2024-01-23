@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            CheckedListBox checkML1;
             CheckedListBox checkML4;
             CheckedListBox checkML3;
             CheckedListBox checkML2;
@@ -36,6 +35,7 @@
             CheckedListBox checkML7;
             CheckedListBox checkML8;
             CheckedListBox checkML5;
+            CheckedListBox checkedListBox1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menlegs));
             panel1 = new Panel();
             MLbtn6 = new Button();
@@ -64,7 +64,9 @@
             pictureBox1 = new PictureBox();
             bttn_anterior = new Button();
             bttn_sair = new Button();
-            checkML1 = new CheckedListBox();
+            LabelUtilizador = new Label();
+            bttn_carrinho = new Button();
+            numero_itens = new Label();
             checkML4 = new CheckedListBox();
             checkML3 = new CheckedListBox();
             checkML2 = new CheckedListBox();
@@ -72,6 +74,7 @@
             checkML7 = new CheckedListBox();
             checkML8 = new CheckedListBox();
             checkML5 = new CheckedListBox();
+            checkedListBox1 = new CheckedListBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -82,16 +85,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // checkML1
-            // 
-            checkML1.FormattingEnabled = true;
-            checkML1.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML1.Location = new Point(40, 345);
-            checkML1.Margin = new Padding(4, 5, 4, 5);
-            checkML1.Name = "checkML1";
-            checkML1.Size = new Size(107, 88);
-            checkML1.TabIndex = 8;
             // 
             // checkML4
             // 
@@ -115,6 +108,7 @@
             // 
             // checkML2
             // 
+            checkML2.AccessibleName = "checkML2";
             checkML2.FormattingEnabled = true;
             checkML2.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
             checkML2.Location = new Point(320, 345);
@@ -163,9 +157,21 @@
             checkML5.Size = new Size(107, 88);
             checkML5.TabIndex = 24;
             // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
+            checkedListBox1.Location = new Point(42, 345);
+            checkedListBox1.Margin = new Padding(4, 5, 4, 5);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(107, 88);
+            checkedListBox1.TabIndex = 39;
+            checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
+            // 
             // panel1
             // 
             panel1.BackColor = Color.Black;
+            panel1.Controls.Add(checkedListBox1);
             panel1.Controls.Add(MLbtn6);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(checkML6);
@@ -196,13 +202,13 @@
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(MLbtn1);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(checkML1);
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(39, 210);
             panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1207, 707);
+            panel1.Size = new Size(1207, 778);
             panel1.TabIndex = 1;
+            panel1.Paint += panel1_Paint;
             // 
             // MLbtn6
             // 
@@ -214,6 +220,7 @@
             MLbtn6.TabIndex = 38;
             MLbtn6.Text = "Adicionar ao Carrinho";
             MLbtn6.UseVisualStyleBackColor = false;
+            MLbtn6.Click += MLbtn6_Click;
             // 
             // label5
             // 
@@ -237,6 +244,7 @@
             pictureBox5.Size = new Size(237, 413);
             pictureBox5.TabIndex = 35;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // MLbtn7
             // 
@@ -248,6 +256,7 @@
             MLbtn7.TabIndex = 34;
             MLbtn7.Text = "Adicionar ao Carrinho";
             MLbtn7.UseVisualStyleBackColor = false;
+            MLbtn7.Click += MLbtn7_Click;
             // 
             // label6
             // 
@@ -271,6 +280,7 @@
             pictureBox6.Size = new Size(237, 413);
             pictureBox6.TabIndex = 31;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // MLbtn8
             // 
@@ -282,6 +292,7 @@
             MLbtn8.TabIndex = 30;
             MLbtn8.Text = "Adicionar ao Carrinho";
             MLbtn8.UseVisualStyleBackColor = false;
+            MLbtn8.Click += MLbtn8_Click;
             // 
             // label7
             // 
@@ -305,6 +316,7 @@
             pictureBox7.Size = new Size(237, 413);
             pictureBox7.TabIndex = 27;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += pictureBox7_Click;
             // 
             // MLbtn5
             // 
@@ -316,6 +328,7 @@
             MLbtn5.TabIndex = 26;
             MLbtn5.Text = "Adicionar ao Carrinho";
             MLbtn5.UseVisualStyleBackColor = false;
+            MLbtn5.Click += MLbtn5_Click;
             // 
             // label8
             // 
@@ -339,6 +352,7 @@
             pictureBox8.Size = new Size(237, 413);
             pictureBox8.TabIndex = 23;
             pictureBox8.TabStop = false;
+            pictureBox8.Click += pictureBox8_Click;
             // 
             // MLbtn2
             // 
@@ -350,6 +364,7 @@
             MLbtn2.TabIndex = 22;
             MLbtn2.Text = "Adicionar ao Carrinho";
             MLbtn2.UseVisualStyleBackColor = false;
+            MLbtn2.Click += MLbtn2_Click;
             // 
             // label4
             // 
@@ -384,6 +399,7 @@
             MLbtn3.TabIndex = 18;
             MLbtn3.Text = "Adicionar ao Carrinho";
             MLbtn3.UseVisualStyleBackColor = false;
+            MLbtn3.Click += MLbtn3_Click;
             // 
             // label3
             // 
@@ -418,6 +434,7 @@
             MLbtn4.TabIndex = 14;
             MLbtn4.Text = "Adicionar ao Carrinho";
             MLbtn4.UseVisualStyleBackColor = false;
+            MLbtn4.Click += MLbtn4_Click;
             // 
             // label2
             // 
@@ -452,6 +469,7 @@
             MLbtn1.TabIndex = 10;
             MLbtn1.Text = "Adicionar ao Carrinho";
             MLbtn1.UseVisualStyleBackColor = false;
+            MLbtn1.Click += MLbtn1_Click;
             // 
             // label1
             // 
@@ -499,12 +517,55 @@
             bttn_sair.UseVisualStyleBackColor = false;
             bttn_sair.Click += bttn_sair_Click;
             // 
+            // LabelUtilizador
+            // 
+            LabelUtilizador.AutoSize = true;
+            LabelUtilizador.BackColor = Color.Transparent;
+            LabelUtilizador.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
+            LabelUtilizador.Location = new Point(580, 143);
+            LabelUtilizador.Name = "LabelUtilizador";
+            LabelUtilizador.Size = new Size(88, 28);
+            LabelUtilizador.TabIndex = 13;
+            LabelUtilizador.Text = "label3";
+            // 
+            // bttn_carrinho
+            // 
+            bttn_carrinho.BackColor = Color.Black;
+            bttn_carrinho.BackgroundImage = (Image)resources.GetObject("bttn_carrinho.BackgroundImage");
+            bttn_carrinho.BackgroundImageLayout = ImageLayout.Stretch;
+            bttn_carrinho.FlatAppearance.BorderColor = Color.Black;
+            bttn_carrinho.FlatStyle = FlatStyle.Popup;
+            bttn_carrinho.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
+            bttn_carrinho.Location = new Point(147, 112);
+            bttn_carrinho.Name = "bttn_carrinho";
+            bttn_carrinho.Size = new Size(81, 74);
+            bttn_carrinho.TabIndex = 14;
+            bttn_carrinho.UseVisualStyleBackColor = false;
+            bttn_carrinho.Click += bttn_carrinho_Click;
+            // 
+            // numero_itens
+            // 
+            numero_itens.AutoSize = true;
+            numero_itens.BackColor = Color.Transparent;
+            numero_itens.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
+            numero_itens.Location = new Point(237, 158);
+            numero_itens.Name = "numero_itens";
+            numero_itens.Size = new Size(23, 28);
+            numero_itens.TabIndex = 17;
+            numero_itens.Text = "?";
+            // 
             // Menlegs
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1263, 953);
+            Controls.Add(numero_itens);
+            Controls.Add(bttn_carrinho);
+            Controls.Add(LabelUtilizador);
             Controls.Add(bttn_anterior);
             Controls.Add(bttn_sair);
             Controls.Add(panel1);
@@ -523,6 +584,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -554,5 +616,8 @@
         private PictureBox pictureBox8;
         private Button bttn_anterior;
         private Button bttn_sair;
+        private Label LabelUtilizador;
+        private Button bttn_carrinho;
+        private Label numero_itens;
     }
 }

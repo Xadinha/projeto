@@ -35,6 +35,9 @@
             menbtn = new Button();
             womenbtn = new Button();
             bttn_sair = new Button();
+            LabelUtilizador = new Label();
+            bttn_carrinho = new Button();
+            numero_itens = new Label();
             SuspendLayout();
             // 
             // label1
@@ -115,6 +118,47 @@
             bttn_sair.UseVisualStyleBackColor = false;
             bttn_sair.Click += bttn_sair_Click;
             // 
+            // LabelUtilizador
+            // 
+            LabelUtilizador.AutoSize = true;
+            LabelUtilizador.BackColor = Color.Transparent;
+            LabelUtilizador.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
+            LabelUtilizador.Location = new Point(437, 76);
+            LabelUtilizador.Name = "LabelUtilizador";
+            LabelUtilizador.Size = new Size(88, 28);
+            LabelUtilizador.TabIndex = 6;
+            LabelUtilizador.Text = "label3";
+            LabelUtilizador.Click += label3_Click;
+            // 
+            // bttn_carrinho
+            // 
+            bttn_carrinho.BackColor = Color.Black;
+            bttn_carrinho.BackgroundImage = (Image)resources.GetObject("bttn_carrinho.BackgroundImage");
+            bttn_carrinho.BackgroundImageLayout = ImageLayout.Stretch;
+            bttn_carrinho.FlatAppearance.BorderColor = Color.Black;
+            bttn_carrinho.FlatStyle = FlatStyle.Popup;
+            bttn_carrinho.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
+            bttn_carrinho.Location = new Point(121, 93);
+            bttn_carrinho.Name = "bttn_carrinho";
+            bttn_carrinho.Size = new Size(81, 74);
+            bttn_carrinho.TabIndex = 7;
+            bttn_carrinho.UseVisualStyleBackColor = false;
+            bttn_carrinho.Click += bttn_carrinho_Click_1;
+            // 
+            // numero_itens
+            // 
+            numero_itens.AutoSize = true;
+            numero_itens.BackColor = Color.Transparent;
+            numero_itens.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
+            numero_itens.Location = new Point(208, 139);
+            numero_itens.Name = "numero_itens";
+            numero_itens.Size = new Size(23, 28);
+            numero_itens.TabIndex = 17;
+            numero_itens.Text = "?";
+            // 
             // paginaprincipal
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -123,6 +167,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(884, 572);
+            Controls.Add(numero_itens);
+            Controls.Add(bttn_carrinho);
+            Controls.Add(LabelUtilizador);
             Controls.Add(bttn_sair);
             Controls.Add(womenbtn);
             Controls.Add(menbtn);
@@ -146,5 +193,8 @@
         private Button menbtn;
         private Button womenbtn;
         private Button bttn_sair;
+        private Label LabelUtilizador;
+        private Button bttn_carrinho;
+        private Label numero_itens;
     }
 }

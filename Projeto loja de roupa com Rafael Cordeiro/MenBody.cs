@@ -15,6 +15,22 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         public MenBody()
         {
             InitializeComponent();
+            panel1.AutoScroll = false;
+            panel1.HorizontalScroll.Enabled = false;
+            panel1.HorizontalScroll.Visible = false;
+            panel1.HorizontalScroll.Maximum = 0;
+            panel1.AutoScroll = true;
+            if (nome_utilizador.nomeutilizador == "")
+            {
+                LabelUtilizador.Visible = false;
+                LabelUtilizador.Enabled = false;
+            }
+            else
+            {
+                LabelUtilizador.Enabled = true;
+                LabelUtilizador.Text = nome_utilizador.nomeutilizador;
+                LabelUtilizador.Visible = true;
+            }
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -167,6 +183,18 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             Men men = new Men();
             this.Hide();
             men.Show();
+        }
+
+        private void panel1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void bttn_carrinho_Click(object sender, EventArgs e)
+        {
+            carrinho pagar = new carrinho();
+            this.Hide();
+            pagar.Show();
         }
     }
 }

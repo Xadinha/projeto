@@ -62,9 +62,12 @@
             MBbtn1 = new Button();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            bttn_sair = new Button();
             button1 = new Button();
             bttn_anterior = new Button();
+            LabelUtilizador = new Label();
+            bttn_carrinho = new Button();
+            numero_itens = new Label();
+            label9 = new Label();
             checkMB1 = new CheckedListBox();
             checkMB2 = new CheckedListBox();
             checkMB3 = new CheckedListBox();
@@ -212,6 +215,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1207, 695);
             panel1.TabIndex = 0;
+            panel1.Scroll += panel1_Scroll;
             panel1.Paint += panel1_Paint;
             // 
             // MBbtn8
@@ -498,13 +502,6 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // bttn_sair
-            // 
-            bttn_sair.Location = new Point(0, 0);
-            bttn_sair.Name = "bttn_sair";
-            bttn_sair.Size = new Size(75, 23);
-            bttn_sair.TabIndex = 6;
-            // 
             // button1
             // 
             button1.BackColor = Color.Transparent;
@@ -528,6 +525,57 @@
             bttn_anterior.UseVisualStyleBackColor = true;
             bttn_anterior.Click += bttn_anterior_Click_1;
             // 
+            // LabelUtilizador
+            // 
+            LabelUtilizador.AutoSize = true;
+            LabelUtilizador.BackColor = Color.Transparent;
+            LabelUtilizador.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
+            LabelUtilizador.Location = new Point(572, 141);
+            LabelUtilizador.Name = "LabelUtilizador";
+            LabelUtilizador.Size = new Size(88, 28);
+            LabelUtilizador.TabIndex = 12;
+            LabelUtilizador.Text = "label3";
+            // 
+            // bttn_carrinho
+            // 
+            bttn_carrinho.BackColor = Color.Black;
+            bttn_carrinho.BackgroundImage = (Image)resources.GetObject("bttn_carrinho.BackgroundImage");
+            bttn_carrinho.BackgroundImageLayout = ImageLayout.Stretch;
+            bttn_carrinho.FlatAppearance.BorderColor = Color.Black;
+            bttn_carrinho.FlatStyle = FlatStyle.Popup;
+            bttn_carrinho.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
+            bttn_carrinho.Location = new Point(146, 101);
+            bttn_carrinho.Name = "bttn_carrinho";
+            bttn_carrinho.Size = new Size(81, 74);
+            bttn_carrinho.TabIndex = 13;
+            bttn_carrinho.UseVisualStyleBackColor = false;
+            bttn_carrinho.Click += bttn_carrinho_Click;
+            // 
+            // numero_itens
+            // 
+            numero_itens.AutoSize = true;
+            numero_itens.BackColor = Color.Transparent;
+            numero_itens.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
+            numero_itens.Location = new Point(233, 147);
+            numero_itens.Name = "numero_itens";
+            numero_itens.Size = new Size(0, 28);
+            numero_itens.TabIndex = 17;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.FromArgb(192, 0, 192);
+            label9.Location = new Point(233, 147);
+            label9.Name = "label9";
+            label9.Size = new Size(23, 28);
+            label9.TabIndex = 18;
+            label9.Text = "?";
+            // 
             // MenBody
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -535,9 +583,12 @@
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1263, 953);
+            Controls.Add(label9);
+            Controls.Add(numero_itens);
+            Controls.Add(bttn_carrinho);
+            Controls.Add(LabelUtilizador);
             Controls.Add(button1);
             Controls.Add(bttn_anterior);
-            Controls.Add(bttn_sair);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 5, 4, 5);
@@ -554,6 +605,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -584,8 +636,11 @@
         private Button MBbtn5;
         private Label label8;
         private PictureBox pictureBox8;
-        private Button bttn_sair;
         private Button button1;
         private Button bttn_anterior;
+        private Label LabelUtilizador;
+        private Button bttn_carrinho;
+        private Label numero_itens;
+        private Label label9;
     }
 }

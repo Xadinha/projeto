@@ -37,7 +37,7 @@
             CheckedListBox checkWL4;
             CheckedListBox checkWL1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WomanLegs));
-            painelWL = new Panel();
+            panel1 = new Panel();
             WLbtn6 = new Button();
             label5 = new Label();
             pictureBox5 = new PictureBox();
@@ -63,8 +63,10 @@
             WLprice1 = new Label();
             WL1 = new PictureBox();
             bttn_anterior = new Button();
-            bttn_sair = new Button();
             button1 = new Button();
+            LabelUtilizador = new Label();
+            bttn_carrinho = new Button();
+            numero_itens = new Label();
             checkWL6 = new CheckedListBox();
             checkWL7 = new CheckedListBox();
             checkWL8 = new CheckedListBox();
@@ -73,7 +75,7 @@
             checkWL3 = new CheckedListBox();
             checkWL4 = new CheckedListBox();
             checkWL1 = new CheckedListBox();
-            painelWL.SuspendLayout();
+            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -164,46 +166,46 @@
             checkWL1.Size = new Size(107, 88);
             checkWL1.TabIndex = 8;
             // 
-            // painelWL
+            // panel1
             // 
-            painelWL.BackColor = Color.Black;
-            painelWL.Controls.Add(WLbtn6);
-            painelWL.Controls.Add(label5);
-            painelWL.Controls.Add(checkWL6);
-            painelWL.Controls.Add(pictureBox5);
-            painelWL.Controls.Add(WLbtn7);
-            painelWL.Controls.Add(label6);
-            painelWL.Controls.Add(checkWL7);
-            painelWL.Controls.Add(pictureBox6);
-            painelWL.Controls.Add(WLbtn8);
-            painelWL.Controls.Add(label7);
-            painelWL.Controls.Add(checkWL8);
-            painelWL.Controls.Add(pictureBox7);
-            painelWL.Controls.Add(WLbtn5);
-            painelWL.Controls.Add(label8);
-            painelWL.Controls.Add(checkWL5);
-            painelWL.Controls.Add(pictureBox8);
-            painelWL.Controls.Add(WLbtn2);
-            painelWL.Controls.Add(WLprice2);
-            painelWL.Controls.Add(checkWL2);
-            painelWL.Controls.Add(pictureBox4);
-            painelWL.Controls.Add(WLbtn3);
-            painelWL.Controls.Add(label3);
-            painelWL.Controls.Add(checkWL3);
-            painelWL.Controls.Add(pictureBox3);
-            painelWL.Controls.Add(WLbtn4);
-            painelWL.Controls.Add(label2);
-            painelWL.Controls.Add(checkWL4);
-            painelWL.Controls.Add(pictureBox2);
-            painelWL.Controls.Add(WLbtn1);
-            painelWL.Controls.Add(WLprice1);
-            painelWL.Controls.Add(checkWL1);
-            painelWL.Controls.Add(WL1);
-            painelWL.Location = new Point(17, 217);
-            painelWL.Margin = new Padding(4, 5, 4, 5);
-            painelWL.Name = "painelWL";
-            painelWL.Size = new Size(1207, 717);
-            painelWL.TabIndex = 2;
+            panel1.BackColor = Color.Black;
+            panel1.Controls.Add(WLbtn6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(checkWL6);
+            panel1.Controls.Add(pictureBox5);
+            panel1.Controls.Add(WLbtn7);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(checkWL7);
+            panel1.Controls.Add(pictureBox6);
+            panel1.Controls.Add(WLbtn8);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(checkWL8);
+            panel1.Controls.Add(pictureBox7);
+            panel1.Controls.Add(WLbtn5);
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(checkWL5);
+            panel1.Controls.Add(pictureBox8);
+            panel1.Controls.Add(WLbtn2);
+            panel1.Controls.Add(WLprice2);
+            panel1.Controls.Add(checkWL2);
+            panel1.Controls.Add(pictureBox4);
+            panel1.Controls.Add(WLbtn3);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(checkWL3);
+            panel1.Controls.Add(pictureBox3);
+            panel1.Controls.Add(WLbtn4);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(checkWL4);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(WLbtn1);
+            panel1.Controls.Add(WLprice1);
+            panel1.Controls.Add(checkWL1);
+            panel1.Controls.Add(WL1);
+            panel1.Location = new Point(17, 217);
+            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1207, 717);
+            panel1.TabIndex = 2;
             // 
             // WLbtn6
             // 
@@ -489,13 +491,6 @@
             bttn_anterior.UseVisualStyleBackColor = true;
             bttn_anterior.Click += bttn_anterior_Click;
             // 
-            // bttn_sair
-            // 
-            bttn_sair.Location = new Point(0, 0);
-            bttn_sair.Name = "bttn_sair";
-            bttn_sair.Size = new Size(75, 23);
-            bttn_sair.TabIndex = 8;
-            // 
             // button1
             // 
             button1.BackColor = Color.Transparent;
@@ -508,22 +503,64 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // LabelUtilizador
+            // 
+            LabelUtilizador.AutoSize = true;
+            LabelUtilizador.BackColor = Color.Transparent;
+            LabelUtilizador.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
+            LabelUtilizador.Location = new Point(566, 152);
+            LabelUtilizador.Name = "LabelUtilizador";
+            LabelUtilizador.Size = new Size(88, 28);
+            LabelUtilizador.TabIndex = 15;
+            LabelUtilizador.Text = "label3";
+            // 
+            // bttn_carrinho
+            // 
+            bttn_carrinho.BackColor = Color.Black;
+            bttn_carrinho.BackgroundImage = (Image)resources.GetObject("bttn_carrinho.BackgroundImage");
+            bttn_carrinho.BackgroundImageLayout = ImageLayout.Stretch;
+            bttn_carrinho.FlatAppearance.BorderColor = Color.Black;
+            bttn_carrinho.FlatStyle = FlatStyle.Popup;
+            bttn_carrinho.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
+            bttn_carrinho.Location = new Point(139, 112);
+            bttn_carrinho.Name = "bttn_carrinho";
+            bttn_carrinho.Size = new Size(81, 74);
+            bttn_carrinho.TabIndex = 16;
+            bttn_carrinho.UseVisualStyleBackColor = false;
+            bttn_carrinho.Click += bttn_carrinho_Click;
+            // 
+            // numero_itens
+            // 
+            numero_itens.AutoSize = true;
+            numero_itens.BackColor = Color.Transparent;
+            numero_itens.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
+            numero_itens.Location = new Point(226, 158);
+            numero_itens.Name = "numero_itens";
+            numero_itens.Size = new Size(23, 28);
+            numero_itens.TabIndex = 17;
+            numero_itens.Text = "?";
+            // 
             // WomanLegs
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1263, 953);
+            Controls.Add(numero_itens);
+            Controls.Add(bttn_carrinho);
+            Controls.Add(LabelUtilizador);
             Controls.Add(button1);
             Controls.Add(bttn_anterior);
-            Controls.Add(bttn_sair);
-            Controls.Add(painelWL);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 5, 4, 5);
             Name = "WomanLegs";
             Text = "WomanLegs";
-            painelWL.ResumeLayout(false);
-            painelWL.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
@@ -533,11 +570,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)WL1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private Panel painelWL;
+        private Panel panel1;
         private Button WLbtn6;
         private Label label5;
         private PictureBox pictureBox5;
@@ -563,7 +601,9 @@
         private Label WLprice1;
         private PictureBox WL1;
         private Button bttn_anterior;
-        private Button bttn_sair;
         private Button button1;
+        private Label LabelUtilizador;
+        private Button bttn_carrinho;
+        private Label numero_itens;
     }
 }

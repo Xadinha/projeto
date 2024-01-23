@@ -64,6 +64,9 @@
             pictureBox1 = new PictureBox();
             bttn_anterior = new Button();
             bttn_sair = new Button();
+            LabelUtilizador = new Label();
+            bttn_carrinho = new Button();
+            numero_itens = new Label();
             checkWB1 = new CheckedListBox();
             checkWB2 = new CheckedListBox();
             checkWB4 = new CheckedListBox();
@@ -499,12 +502,55 @@
             bttn_sair.UseVisualStyleBackColor = false;
             bttn_sair.Click += bttn_sair_Click;
             // 
+            // LabelUtilizador
+            // 
+            LabelUtilizador.AutoSize = true;
+            LabelUtilizador.BackColor = Color.Transparent;
+            LabelUtilizador.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
+            LabelUtilizador.Location = new Point(572, 131);
+            LabelUtilizador.Name = "LabelUtilizador";
+            LabelUtilizador.Size = new Size(88, 28);
+            LabelUtilizador.TabIndex = 14;
+            LabelUtilizador.Text = "label3";
+            // 
+            // bttn_carrinho
+            // 
+            bttn_carrinho.BackColor = Color.Black;
+            bttn_carrinho.BackgroundImage = (Image)resources.GetObject("bttn_carrinho.BackgroundImage");
+            bttn_carrinho.BackgroundImageLayout = ImageLayout.Stretch;
+            bttn_carrinho.FlatAppearance.BorderColor = Color.Black;
+            bttn_carrinho.FlatStyle = FlatStyle.Popup;
+            bttn_carrinho.Font = new Font("Showcard Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
+            bttn_carrinho.Location = new Point(136, 110);
+            bttn_carrinho.Name = "bttn_carrinho";
+            bttn_carrinho.Size = new Size(81, 74);
+            bttn_carrinho.TabIndex = 15;
+            bttn_carrinho.UseVisualStyleBackColor = false;
+            bttn_carrinho.Click += bttn_carrinho_Click;
+            // 
+            // numero_itens
+            // 
+            numero_itens.AutoSize = true;
+            numero_itens.BackColor = Color.Transparent;
+            numero_itens.Font = new Font("Showcard Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
+            numero_itens.Location = new Point(223, 156);
+            numero_itens.Name = "numero_itens";
+            numero_itens.Size = new Size(23, 28);
+            numero_itens.TabIndex = 17;
+            numero_itens.Text = "?";
+            // 
             // Womanbody
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1263, 953);
+            Controls.Add(numero_itens);
+            Controls.Add(bttn_carrinho);
+            Controls.Add(LabelUtilizador);
             Controls.Add(bttn_anterior);
             Controls.Add(bttn_sair);
             Controls.Add(panel1);
@@ -523,6 +569,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -554,5 +601,8 @@
         private PictureBox pictureBox4;
         private Button bttn_anterior;
         private Button bttn_sair;
+        private Label LabelUtilizador;
+        private Button bttn_carrinho;
+        private Label numero_itens;
     }
 }
