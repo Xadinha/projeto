@@ -44,7 +44,6 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             this.Hide();
             men.Show();
         }
-
         private void bttn_carrinho_Click(object sender, EventArgs e)
         {
             carrinho pagar = new carrinho();
