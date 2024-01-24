@@ -52,7 +52,9 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         }
         private void MLbtn1_Click(object sender, EventArgs e)
         {
+            //CheckedListBox lista = new CheckedListBox();
             string nome = "calças super baggy pretas homem";
+           // lista.Items.AddRange();
             //string tamanho = checkedListBox1.CheckedItems[0].ToString();
             string tamanho = "M";
             string preço = label1.Text;

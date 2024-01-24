@@ -63,5 +63,10 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
                 PASStxt.UseSystemPasswordChar = true;
             }
         }
+
+        private void PASStxt_TextChanged(object sender, EventArgs e)
+        {
+                
+        }
     }
 }

@@ -136,10 +136,10 @@
             // 
             PASStxt.Location = new Point(507, 477);
             PASStxt.Margin = new Padding(4, 5, 4, 5);
-            PASStxt.Multiline = true;
             PASStxt.Name = "PASStxt";
-            PASStxt.Size = new Size(264, 51);
+            PASStxt.Size = new Size(264, 31);
             PASStxt.TabIndex = 9;
+            PASStxt.TextChanged += PASStxt_TextChanged;
             // 
             // bttn_anterior
             // 

@@ -119,18 +119,16 @@
             // 
             PASStxt.Location = new Point(594, 410);
             PASStxt.Margin = new Padding(4, 5, 4, 5);
-            PASStxt.Multiline = true;
             PASStxt.Name = "PASStxt";
-            PASStxt.Size = new Size(264, 47);
+            PASStxt.Size = new Size(264, 31);
             PASStxt.TabIndex = 7;
             // 
             // CPASStxt
             // 
             CPASStxt.Location = new Point(594, 547);
             CPASStxt.Margin = new Padding(4, 5, 4, 5);
-            CPASStxt.Multiline = true;
             CPASStxt.Name = "CPASStxt";
-            CPASStxt.Size = new Size(264, 56);
+            CPASStxt.Size = new Size(264, 31);
             CPASStxt.TabIndex = 8;
             // 
             // checkPASS2
