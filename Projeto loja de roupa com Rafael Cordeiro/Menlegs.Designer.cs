@@ -28,26 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            CheckedListBox checkML4;
-            CheckedListBox checkML3;
-            CheckedListBox checkML2;
             CheckedListBox checkML6;
             CheckedListBox checkML7;
             CheckedListBox checkML8;
             CheckedListBox checkML5;
-            CheckedListBox checkedListBox1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menlegs));
             panel1 = new Panel();
-            MLbtn6 = new Button();
+            groupBox1 = new GroupBox();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
             label5 = new Label();
             pictureBox5 = new PictureBox();
-            MLbtn7 = new Button();
             label6 = new Label();
             pictureBox6 = new PictureBox();
-            MLbtn8 = new Button();
             label7 = new Label();
             pictureBox7 = new PictureBox();
-            MLbtn5 = new Button();
             label8 = new Label();
             pictureBox8 = new PictureBox();
             MLbtn2 = new Button();
@@ -67,15 +62,12 @@
             LabelUtilizador = new Label();
             bttn_carrinho = new Button();
             numero_itens = new Label();
-            checkML4 = new CheckedListBox();
-            checkML3 = new CheckedListBox();
-            checkML2 = new CheckedListBox();
             checkML6 = new CheckedListBox();
             checkML7 = new CheckedListBox();
             checkML8 = new CheckedListBox();
             checkML5 = new CheckedListBox();
-            checkedListBox1 = new CheckedListBox();
             panel1.SuspendLayout();
+            groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -85,37 +77,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // checkML4
-            // 
-            checkML4.FormattingEnabled = true;
-            checkML4.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML4.Location = new Point(916, 345);
-            checkML4.Margin = new Padding(4, 5, 4, 5);
-            checkML4.Name = "checkML4";
-            checkML4.Size = new Size(107, 60);
-            checkML4.TabIndex = 12;
-            // 
-            // checkML3
-            // 
-            checkML3.FormattingEnabled = true;
-            checkML3.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML3.Location = new Point(613, 345);
-            checkML3.Margin = new Padding(4, 5, 4, 5);
-            checkML3.Name = "checkML3";
-            checkML3.Size = new Size(107, 60);
-            checkML3.TabIndex = 16;
-            // 
-            // checkML2
-            // 
-            checkML2.AccessibleName = "checkML2";
-            checkML2.FormattingEnabled = true;
-            checkML2.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML2.Location = new Point(320, 345);
-            checkML2.Margin = new Padding(4, 5, 4, 5);
-            checkML2.Name = "checkML2";
-            checkML2.Size = new Size(107, 60);
-            checkML2.TabIndex = 20;
             // 
             // checkML6
             // 
@@ -157,47 +118,30 @@
             checkML5.Size = new Size(107, 60);
             checkML5.TabIndex = 24;
             // 
-            // checkedListBox1
-            // 
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkedListBox1.Location = new Point(41, 345);
-            checkedListBox1.Margin = new Padding(4, 5, 4, 5);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(107, 60);
-            checkedListBox1.TabIndex = 39;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.Black;
-            panel1.Controls.Add(checkedListBox1);
-            panel1.Controls.Add(MLbtn6);
+            panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(checkML6);
             panel1.Controls.Add(pictureBox5);
-            panel1.Controls.Add(MLbtn7);
             panel1.Controls.Add(label6);
             panel1.Controls.Add(checkML7);
             panel1.Controls.Add(pictureBox6);
-            panel1.Controls.Add(MLbtn8);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(checkML8);
             panel1.Controls.Add(pictureBox7);
-            panel1.Controls.Add(MLbtn5);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(checkML5);
             panel1.Controls.Add(pictureBox8);
             panel1.Controls.Add(MLbtn2);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(checkML2);
             panel1.Controls.Add(pictureBox4);
             panel1.Controls.Add(MLbtn3);
             panel1.Controls.Add(label3);
-            panel1.Controls.Add(checkML3);
             panel1.Controls.Add(pictureBox3);
             panel1.Controls.Add(MLbtn4);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(checkML4);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(MLbtn1);
             panel1.Controls.Add(label1);
@@ -208,17 +152,38 @@
             panel1.Size = new Size(1207, 778);
             panel1.TabIndex = 1;
             // 
-            // MLbtn6
+            // groupBox1
             // 
-            MLbtn6.BackColor = Color.Transparent;
-            MLbtn6.Location = new Point(437, 790);
-            MLbtn6.Margin = new Padding(4, 5, 4, 5);
-            MLbtn6.Name = "MLbtn6";
-            MLbtn6.Size = new Size(107, 88);
-            MLbtn6.TabIndex = 38;
-            MLbtn6.Text = "Adicionar ao Carrinho";
-            MLbtn6.UseVisualStyleBackColor = false;
-            MLbtn6.Click += MLbtn6_Click;
+            groupBox1.BackColor = Color.White;
+            groupBox1.Controls.Add(radioButton2);
+            groupBox1.Controls.Add(radioButton1);
+            groupBox1.Location = new Point(42, 345);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(110, 88);
+            groupBox1.TabIndex = 38;
+            groupBox1.TabStop = false;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(5, 51);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(45, 29);
+            radioButton2.TabIndex = 1;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "L";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(5, 19);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(53, 29);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "M";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -243,18 +208,6 @@
             pictureBox5.TabIndex = 35;
             pictureBox5.TabStop = false;
             // 
-            // MLbtn7
-            // 
-            MLbtn7.BackColor = Color.Transparent;
-            MLbtn7.Location = new Point(730, 790);
-            MLbtn7.Margin = new Padding(4, 5, 4, 5);
-            MLbtn7.Name = "MLbtn7";
-            MLbtn7.Size = new Size(107, 88);
-            MLbtn7.TabIndex = 34;
-            MLbtn7.Text = "Adicionar ao Carrinho";
-            MLbtn7.UseVisualStyleBackColor = false;
-            MLbtn7.Click += MLbtn7_Click;
-            // 
             // label6
             // 
             label6.AutoSize = true;
@@ -278,18 +231,6 @@
             pictureBox6.TabIndex = 31;
             pictureBox6.TabStop = false;
             // 
-            // MLbtn8
-            // 
-            MLbtn8.BackColor = Color.Transparent;
-            MLbtn8.Location = new Point(1033, 790);
-            MLbtn8.Margin = new Padding(4, 5, 4, 5);
-            MLbtn8.Name = "MLbtn8";
-            MLbtn8.Size = new Size(107, 88);
-            MLbtn8.TabIndex = 30;
-            MLbtn8.Text = "Adicionar ao Carrinho";
-            MLbtn8.UseVisualStyleBackColor = false;
-            MLbtn8.Click += MLbtn8_Click;
-            // 
             // label7
             // 
             label7.AutoSize = true;
@@ -312,18 +253,6 @@
             pictureBox7.Size = new Size(237, 413);
             pictureBox7.TabIndex = 27;
             pictureBox7.TabStop = false;
-            // 
-            // MLbtn5
-            // 
-            MLbtn5.BackColor = Color.Transparent;
-            MLbtn5.Location = new Point(157, 790);
-            MLbtn5.Margin = new Padding(4, 5, 4, 5);
-            MLbtn5.Name = "MLbtn5";
-            MLbtn5.Size = new Size(107, 88);
-            MLbtn5.TabIndex = 26;
-            MLbtn5.Text = "Adicionar ao Carrinho";
-            MLbtn5.UseVisualStyleBackColor = false;
-            MLbtn5.Click += MLbtn5_Click;
             // 
             // label8
             // 
@@ -569,6 +498,8 @@
             Text = "Menlegs";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
@@ -596,16 +527,12 @@
         private Button MLbtn1;
         private Label label1;
         private PictureBox pictureBox1;
-        private Button MLbtn6;
         private Label label5;
         private PictureBox pictureBox5;
-        private Button MLbtn7;
         private Label label6;
         private PictureBox pictureBox6;
-        private Button MLbtn8;
         private Label label7;
         private PictureBox pictureBox7;
-        private Button MLbtn5;
         private Label label8;
         private PictureBox pictureBox8;
         private Button bttn_anterior;
@@ -613,5 +540,8 @@
         private Label LabelUtilizador;
         private Button bttn_carrinho;
         private Label numero_itens;
+        private GroupBox groupBox1;
+        private RadioButton radioButton1;
+        private RadioButton radioButton2;
     }
 }

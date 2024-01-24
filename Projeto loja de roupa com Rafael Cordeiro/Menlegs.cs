@@ -52,14 +52,30 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
         }
         private void MLbtn1_Click(object sender, EventArgs e)
         {
-            //CheckedListBox lista = new CheckedListBox();
-            string nome = "calças super baggy pretas homem";
-           // lista.Items.AddRange();
-            //string tamanho = checkedListBox1.CheckedItems[0].ToString();
-            string tamanho = "M";
-            string preço = label1.Text;
-            itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
-            itens_carrinho.AtualizarLabelComContagem(numero_itens);
+            if (radioButton1.Checked == false && radioButton2.Checked == false)
+            { MessageBox.Show("Tem de escolher um tamanho"); }
+            else
+            {
+                if (radioButton1.Checked == true && radioButton2.Checked == false)
+                {
+                    string nome = "calças super baggy pretas homem";
+                    string tamanho = radioButton1.Text;
+                    string preço = label1.Text;
+                    itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+                    itens_carrinho.AtualizarLabelComContagem(numero_itens);
+                }
+                else
+                {
+                    if (radioButton1.Checked == false && radioButton2.Checked == true)
+                    {
+                        string nome = "calças super baggy pretas homem";
+                        string tamanho = radioButton2.Text;
+                        string preço = label1.Text;
+                        itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
+                        itens_carrinho.AtualizarLabelComContagem(numero_itens);
+                    }
+                }
+            }           
         }
         private void MLbtn2_Click(object sender, EventArgs e)
         {
@@ -123,6 +139,11 @@ namespace Projeto_loja_de_roupa_com_Rafael_Cordeiro
             string preço = label1.Text;
             itens_carrinho.MétodoCarrinho(nome, tamanho, preço);
             itens_carrinho.AtualizarLabelComContagem(numero_itens);
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
