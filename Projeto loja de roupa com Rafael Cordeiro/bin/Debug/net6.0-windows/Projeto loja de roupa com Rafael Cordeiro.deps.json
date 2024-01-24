@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Projeto loja de roupa com Rafael Cordeiro/1.0.0": {
+        "runtime": {
+          "Projeto loja de roupa com Rafael Cordeiro.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto loja de roupa com Rafael Cordeiro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

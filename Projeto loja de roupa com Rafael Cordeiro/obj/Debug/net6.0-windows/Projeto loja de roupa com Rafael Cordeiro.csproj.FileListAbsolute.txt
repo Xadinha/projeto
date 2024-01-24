@@ -1,0 +1,53 @@
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.exe
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.deps.json
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.runtimeconfig.json
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.pdb
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.carrinho.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.LogIN.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Men.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.MenBody.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Menlegs.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.paginaprincipal.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Properties.Resources.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Registar.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Womanbody.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.WomanLegs.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Women.resources
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.csproj.GenerateResource.cache
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.AssemblyInfoInputs.cache
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.AssemblyInfo.cs
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.csproj.CoreCompileInputs.cache
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.sourcelink.json
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\refint\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.pdb
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.genruntimeconfig.cache
+C:\Users\Aluno_AEDS\Source\Repos\projeto\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\ref\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.exe
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.deps.json
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.runtimeconfig.json
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\bin\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.pdb
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.carrinho.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.LogIN.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Men.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.MenBody.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Menlegs.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.paginaprincipal.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Properties.Resources.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Registar.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Womanbody.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.WomanLegs.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto_loja_de_roupa_com_Rafael_Cordeiro.Women.resources
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.csproj.GenerateResource.cache
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.AssemblyInfoInputs.cache
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.AssemblyInfo.cs
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\refint\Projeto loja de roupa com Rafael Cordeiro.dll
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.pdb
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\Projeto loja de roupa com Rafael Cordeiro.genruntimeconfig.cache
+C:\Users\Rafa\Source\Repos\projeto-todo-cagado\Projeto loja de roupa com Rafael Cordeiro\obj\Debug\net6.0-windows\ref\Projeto loja de roupa com Rafael Cordeiro.dll

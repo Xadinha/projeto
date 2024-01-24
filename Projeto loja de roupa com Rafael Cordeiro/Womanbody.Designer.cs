@@ -28,14 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            CheckedListBox checkWB1;
-            CheckedListBox checkWB2;
-            CheckedListBox checkWB4;
-            CheckedListBox checkWB3;
-            CheckedListBox checkWB8;
-            CheckedListBox checkWB7;
-            CheckedListBox checkWB6;
-            CheckedListBox checkWB5;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Womanbody));
             panel1 = new Panel();
             WBbtn8 = new Button();
@@ -67,14 +59,30 @@
             LabelUtilizador = new Label();
             bttn_carrinho = new Button();
             numero_itens = new Label();
-            checkWB1 = new CheckedListBox();
-            checkWB2 = new CheckedListBox();
-            checkWB4 = new CheckedListBox();
-            checkWB3 = new CheckedListBox();
-            checkWB8 = new CheckedListBox();
-            checkWB7 = new CheckedListBox();
-            checkWB6 = new CheckedListBox();
-            checkWB5 = new CheckedListBox();
+            groupBox8 = new GroupBox();
+            radioButton16 = new RadioButton();
+            radioButton15 = new RadioButton();
+            groupBox7 = new GroupBox();
+            radioButton14 = new RadioButton();
+            radioButton13 = new RadioButton();
+            groupBox6 = new GroupBox();
+            radioButton12 = new RadioButton();
+            radioButton11 = new RadioButton();
+            groupBox5 = new GroupBox();
+            radioButton10 = new RadioButton();
+            radioButton9 = new RadioButton();
+            groupBox4 = new GroupBox();
+            radioButton8 = new RadioButton();
+            radioButton7 = new RadioButton();
+            groupBox3 = new GroupBox();
+            radioButton6 = new RadioButton();
+            radioButton5 = new RadioButton();
+            groupBox2 = new GroupBox();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            groupBox1 = new GroupBox();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -84,118 +92,54 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox8.SuspendLayout();
+            groupBox7.SuspendLayout();
+            groupBox6.SuspendLayout();
+            groupBox5.SuspendLayout();
+            groupBox4.SuspendLayout();
+            groupBox3.SuspendLayout();
+            groupBox2.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
-            // 
-            // checkWB1
-            // 
-            checkWB1.FormattingEnabled = true;
-            checkWB1.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB1.Location = new Point(28, 207);
-            checkWB1.Name = "checkWB1";
-            checkWB1.Size = new Size(76, 40);
-            checkWB1.TabIndex = 8;
-            // 
-            // checkWB2
-            // 
-            checkWB2.FormattingEnabled = true;
-            checkWB2.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB2.Location = new Point(234, 207);
-            checkWB2.Name = "checkWB2";
-            checkWB2.Size = new Size(76, 40);
-            checkWB2.TabIndex = 20;
-            // 
-            // checkWB4
-            // 
-            checkWB4.FormattingEnabled = true;
-            checkWB4.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB4.Location = new Point(644, 207);
-            checkWB4.Name = "checkWB4";
-            checkWB4.Size = new Size(76, 40);
-            checkWB4.TabIndex = 28;
-            // 
-            // checkWB3
-            // 
-            checkWB3.FormattingEnabled = true;
-            checkWB3.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB3.Location = new Point(438, 207);
-            checkWB3.Name = "checkWB3";
-            checkWB3.Size = new Size(76, 40);
-            checkWB3.TabIndex = 24;
-            // 
-            // checkWB8
-            // 
-            checkWB8.FormattingEnabled = true;
-            checkWB8.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB8.Location = new Point(644, 469);
-            checkWB8.Name = "checkWB8";
-            checkWB8.Size = new Size(76, 40);
-            checkWB8.TabIndex = 44;
-            // 
-            // checkWB7
-            // 
-            checkWB7.FormattingEnabled = true;
-            checkWB7.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB7.Location = new Point(438, 469);
-            checkWB7.Name = "checkWB7";
-            checkWB7.Size = new Size(76, 40);
-            checkWB7.TabIndex = 40;
-            // 
-            // checkWB6
-            // 
-            checkWB6.FormattingEnabled = true;
-            checkWB6.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB6.Location = new Point(234, 469);
-            checkWB6.Name = "checkWB6";
-            checkWB6.Size = new Size(76, 40);
-            checkWB6.TabIndex = 36;
-            // 
-            // checkWB5
-            // 
-            checkWB5.FormattingEnabled = true;
-            checkWB5.Items.AddRange(new object[] { "XS", "S", "M", "L" });
-            checkWB5.Location = new Point(28, 469);
-            checkWB5.Name = "checkWB5";
-            checkWB5.Size = new Size(76, 40);
-            checkWB5.TabIndex = 32;
             // 
             // panel1
             // 
             panel1.BackColor = Color.Black;
+            panel1.Controls.Add(groupBox8);
+            panel1.Controls.Add(groupBox7);
+            panel1.Controls.Add(groupBox6);
+            panel1.Controls.Add(groupBox5);
+            panel1.Controls.Add(groupBox4);
+            panel1.Controls.Add(groupBox3);
+            panel1.Controls.Add(groupBox2);
+            panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(WBbtn8);
             panel1.Controls.Add(label5);
-            panel1.Controls.Add(checkWB8);
             panel1.Controls.Add(pictureBox5);
             panel1.Controls.Add(WBbtn7);
             panel1.Controls.Add(label6);
-            panel1.Controls.Add(checkWB7);
             panel1.Controls.Add(pictureBox6);
             panel1.Controls.Add(WBbtn6);
             panel1.Controls.Add(label7);
-            panel1.Controls.Add(checkWB6);
             panel1.Controls.Add(pictureBox7);
             panel1.Controls.Add(WBbtn5);
             panel1.Controls.Add(label8);
-            panel1.Controls.Add(checkWB5);
             panel1.Controls.Add(pictureBox8);
             panel1.Controls.Add(WBbtn4);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(checkWB4);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(WBbtn3);
             panel1.Controls.Add(label3);
-            panel1.Controls.Add(checkWB3);
             panel1.Controls.Add(pictureBox3);
             panel1.Controls.Add(WBbtn2);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(checkWB2);
             panel1.Controls.Add(pictureBox4);
             panel1.Controls.Add(WBbtn1);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(checkWB1);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(12, 119);
+            panel1.Location = new Point(27, 123);
             panel1.Name = "panel1";
-            panel1.Size = new Size(845, 430);
+            panel1.Size = new Size(845, 472);
             panel1.TabIndex = 2;
             // 
             // WBbtn8
@@ -522,12 +466,308 @@
             numero_itens.TabIndex = 17;
             numero_itens.Text = "?";
             // 
+            // groupBox8
+            // 
+            groupBox8.BackColor = Color.White;
+            groupBox8.Controls.Add(radioButton16);
+            groupBox8.Controls.Add(radioButton15);
+            groupBox8.Location = new Point(653, 474);
+            groupBox8.Margin = new Padding(2);
+            groupBox8.Name = "groupBox8";
+            groupBox8.Padding = new Padding(2);
+            groupBox8.Size = new Size(77, 53);
+            groupBox8.TabIndex = 53;
+            groupBox8.TabStop = false;
+            // 
+            // radioButton16
+            // 
+            radioButton16.AutoSize = true;
+            radioButton16.Location = new Point(3, 30);
+            radioButton16.Margin = new Padding(2);
+            radioButton16.Name = "radioButton16";
+            radioButton16.Size = new Size(36, 19);
+            radioButton16.TabIndex = 1;
+            radioButton16.TabStop = true;
+            radioButton16.Text = "M";
+            radioButton16.UseVisualStyleBackColor = true;
+            // 
+            // radioButton15
+            // 
+            radioButton15.AutoSize = true;
+            radioButton15.Location = new Point(3, 10);
+            radioButton15.Margin = new Padding(2);
+            radioButton15.Name = "radioButton15";
+            radioButton15.Size = new Size(31, 19);
+            radioButton15.TabIndex = 0;
+            radioButton15.TabStop = true;
+            radioButton15.Text = "S";
+            radioButton15.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            groupBox7.BackColor = Color.White;
+            groupBox7.Controls.Add(radioButton14);
+            groupBox7.Controls.Add(radioButton13);
+            groupBox7.Location = new Point(438, 475);
+            groupBox7.Margin = new Padding(2);
+            groupBox7.Name = "groupBox7";
+            groupBox7.Padding = new Padding(2);
+            groupBox7.Size = new Size(77, 53);
+            groupBox7.TabIndex = 54;
+            groupBox7.TabStop = false;
+            // 
+            // radioButton14
+            // 
+            radioButton14.AutoSize = true;
+            radioButton14.Location = new Point(3, 30);
+            radioButton14.Margin = new Padding(2);
+            radioButton14.Name = "radioButton14";
+            radioButton14.Size = new Size(36, 19);
+            radioButton14.TabIndex = 1;
+            radioButton14.TabStop = true;
+            radioButton14.Text = "M";
+            radioButton14.UseVisualStyleBackColor = true;
+            // 
+            // radioButton13
+            // 
+            radioButton13.AutoSize = true;
+            radioButton13.Location = new Point(3, 10);
+            radioButton13.Margin = new Padding(2);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(31, 19);
+            radioButton13.TabIndex = 0;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "S";
+            radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            groupBox6.BackColor = Color.White;
+            groupBox6.Controls.Add(radioButton12);
+            groupBox6.Controls.Add(radioButton11);
+            groupBox6.Location = new Point(234, 475);
+            groupBox6.Margin = new Padding(2);
+            groupBox6.Name = "groupBox6";
+            groupBox6.Padding = new Padding(2);
+            groupBox6.Size = new Size(77, 53);
+            groupBox6.TabIndex = 50;
+            groupBox6.TabStop = false;
+            // 
+            // radioButton12
+            // 
+            radioButton12.AutoSize = true;
+            radioButton12.Location = new Point(3, 30);
+            radioButton12.Margin = new Padding(2);
+            radioButton12.Name = "radioButton12";
+            radioButton12.Size = new Size(36, 19);
+            radioButton12.TabIndex = 1;
+            radioButton12.TabStop = true;
+            radioButton12.Text = "M";
+            radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            radioButton11.AutoSize = true;
+            radioButton11.Location = new Point(3, 10);
+            radioButton11.Margin = new Padding(2);
+            radioButton11.Name = "radioButton11";
+            radioButton11.Size = new Size(31, 19);
+            radioButton11.TabIndex = 0;
+            radioButton11.TabStop = true;
+            radioButton11.Text = "S";
+            radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            groupBox5.BackColor = Color.White;
+            groupBox5.Controls.Add(radioButton10);
+            groupBox5.Controls.Add(radioButton9);
+            groupBox5.Location = new Point(37, 473);
+            groupBox5.Margin = new Padding(2);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Padding = new Padding(2);
+            groupBox5.Size = new Size(77, 53);
+            groupBox5.TabIndex = 51;
+            groupBox5.TabStop = false;
+            // 
+            // radioButton10
+            // 
+            radioButton10.AutoSize = true;
+            radioButton10.Location = new Point(3, 30);
+            radioButton10.Margin = new Padding(2);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(36, 19);
+            radioButton10.TabIndex = 1;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "M";
+            radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            radioButton9.AutoSize = true;
+            radioButton9.Location = new Point(3, 10);
+            radioButton9.Margin = new Padding(2);
+            radioButton9.Name = "radioButton9";
+            radioButton9.Size = new Size(31, 19);
+            radioButton9.TabIndex = 0;
+            radioButton9.TabStop = true;
+            radioButton9.Text = "S";
+            radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            groupBox4.BackColor = Color.White;
+            groupBox4.Controls.Add(radioButton8);
+            groupBox4.Controls.Add(radioButton7);
+            groupBox4.Location = new Point(653, 207);
+            groupBox4.Margin = new Padding(2);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Padding = new Padding(2);
+            groupBox4.Size = new Size(77, 53);
+            groupBox4.TabIndex = 48;
+            groupBox4.TabStop = false;
+            // 
+            // radioButton8
+            // 
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(3, 30);
+            radioButton8.Margin = new Padding(2);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(36, 19);
+            radioButton8.TabIndex = 1;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "M";
+            radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(3, 10);
+            radioButton7.Margin = new Padding(2);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(31, 19);
+            radioButton7.TabIndex = 0;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "S";
+            radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = Color.White;
+            groupBox3.Controls.Add(radioButton6);
+            groupBox3.Controls.Add(radioButton5);
+            groupBox3.Location = new Point(439, 207);
+            groupBox3.Margin = new Padding(2);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Padding = new Padding(2);
+            groupBox3.Size = new Size(77, 53);
+            groupBox3.TabIndex = 52;
+            groupBox3.TabStop = false;
+            // 
+            // radioButton6
+            // 
+            radioButton6.AutoSize = true;
+            radioButton6.Location = new Point(3, 30);
+            radioButton6.Margin = new Padding(2);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(36, 19);
+            radioButton6.TabIndex = 1;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "M";
+            radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(3, 10);
+            radioButton5.Margin = new Padding(2);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(31, 19);
+            radioButton5.TabIndex = 0;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "S";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.BackColor = Color.White;
+            groupBox2.Controls.Add(radioButton4);
+            groupBox2.Controls.Add(radioButton3);
+            groupBox2.Location = new Point(234, 207);
+            groupBox2.Margin = new Padding(2);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(2);
+            groupBox2.Size = new Size(77, 53);
+            groupBox2.TabIndex = 49;
+            groupBox2.TabStop = false;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(3, 30);
+            radioButton4.Margin = new Padding(2);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(36, 19);
+            radioButton4.TabIndex = 1;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "M";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(3, 10);
+            radioButton3.Margin = new Padding(2);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(31, 19);
+            radioButton3.TabIndex = 0;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "S";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.White;
+            groupBox1.Controls.Add(radioButton2);
+            groupBox1.Controls.Add(radioButton1);
+            groupBox1.Location = new Point(38, 207);
+            groupBox1.Margin = new Padding(2);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Padding = new Padding(2);
+            groupBox1.Size = new Size(77, 53);
+            groupBox1.TabIndex = 47;
+            groupBox1.TabStop = false;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(3, 30);
+            radioButton2.Margin = new Padding(2);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(36, 19);
+            radioButton2.TabIndex = 1;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "M";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(3, 10);
+            radioButton1.Margin = new Padding(2);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(31, 19);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "S";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Womanbody
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(884, 572);
+            ClientSize = new Size(884, 717);
             Controls.Add(numero_itens);
             Controls.Add(bttn_carrinho);
             Controls.Add(LabelUtilizador);
@@ -547,6 +787,22 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBox8.ResumeLayout(false);
+            groupBox8.PerformLayout();
+            groupBox7.ResumeLayout(false);
+            groupBox7.PerformLayout();
+            groupBox6.ResumeLayout(false);
+            groupBox6.PerformLayout();
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -583,5 +839,29 @@
         private Label LabelUtilizador;
         private Button bttn_carrinho;
         private Label numero_itens;
+        private GroupBox groupBox8;
+        private RadioButton radioButton16;
+        private RadioButton radioButton15;
+        private GroupBox groupBox7;
+        private RadioButton radioButton14;
+        private RadioButton radioButton13;
+        private GroupBox groupBox6;
+        private RadioButton radioButton12;
+        private RadioButton radioButton11;
+        private GroupBox groupBox5;
+        private RadioButton radioButton10;
+        private RadioButton radioButton9;
+        private GroupBox groupBox4;
+        private RadioButton radioButton8;
+        private RadioButton radioButton7;
+        private GroupBox groupBox3;
+        private RadioButton radioButton6;
+        private RadioButton radioButton5;
+        private GroupBox groupBox2;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private GroupBox groupBox1;
+        private RadioButton radioButton2;
+        private RadioButton radioButton1;
     }
 }

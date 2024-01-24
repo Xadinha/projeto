@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            CheckedListBox checkML6;
-            CheckedListBox checkML7;
-            CheckedListBox checkML8;
-            CheckedListBox checkML5;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menlegs));
             panel1 = new Panel();
+            groupBox8 = new GroupBox();
+            radioButton16 = new RadioButton();
+            radioButton15 = new RadioButton();
+            MLbtn8 = new Button();
+            groupBox7 = new GroupBox();
+            radioButton14 = new RadioButton();
+            radioButton13 = new RadioButton();
+            MLbtn7 = new Button();
+            groupBox6 = new GroupBox();
+            radioButton12 = new RadioButton();
+            radioButton11 = new RadioButton();
+            MLbtn6 = new Button();
+            groupBox5 = new GroupBox();
+            radioButton10 = new RadioButton();
+            radioButton9 = new RadioButton();
+            MLbtn5 = new Button();
+            groupBox4 = new GroupBox();
+            radioButton8 = new RadioButton();
+            radioButton7 = new RadioButton();
+            groupBox3 = new GroupBox();
+            radioButton6 = new RadioButton();
+            radioButton5 = new RadioButton();
+            groupBox2 = new GroupBox();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
             groupBox1 = new GroupBox();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
@@ -62,11 +83,14 @@
             LabelUtilizador = new Label();
             bttn_carrinho = new Button();
             numero_itens = new Label();
-            checkML6 = new CheckedListBox();
-            checkML7 = new CheckedListBox();
-            checkML8 = new CheckedListBox();
-            checkML5 = new CheckedListBox();
             panel1.SuspendLayout();
+            groupBox8.SuspendLayout();
+            groupBox7.SuspendLayout();
+            groupBox6.SuspendLayout();
+            groupBox5.SuspendLayout();
+            groupBox4.SuspendLayout();
+            groupBox3.SuspendLayout();
+            groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -78,61 +102,28 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // checkML6
-            // 
-            checkML6.FormattingEnabled = true;
-            checkML6.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML6.Location = new Point(320, 790);
-            checkML6.Margin = new Padding(4, 5, 4, 5);
-            checkML6.Name = "checkML6";
-            checkML6.Size = new Size(107, 60);
-            checkML6.TabIndex = 36;
-            // 
-            // checkML7
-            // 
-            checkML7.FormattingEnabled = true;
-            checkML7.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML7.Location = new Point(613, 790);
-            checkML7.Margin = new Padding(4, 5, 4, 5);
-            checkML7.Name = "checkML7";
-            checkML7.Size = new Size(107, 60);
-            checkML7.TabIndex = 32;
-            // 
-            // checkML8
-            // 
-            checkML8.FormattingEnabled = true;
-            checkML8.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML8.Location = new Point(916, 790);
-            checkML8.Margin = new Padding(4, 5, 4, 5);
-            checkML8.Name = "checkML8";
-            checkML8.Size = new Size(107, 60);
-            checkML8.TabIndex = 28;
-            // 
-            // checkML5
-            // 
-            checkML5.FormattingEnabled = true;
-            checkML5.Items.AddRange(new object[] { "38", "40", "42", "44", "46", "48", "50" });
-            checkML5.Location = new Point(40, 790);
-            checkML5.Margin = new Padding(4, 5, 4, 5);
-            checkML5.Name = "checkML5";
-            checkML5.Size = new Size(107, 60);
-            checkML5.TabIndex = 24;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.Black;
+            panel1.Controls.Add(groupBox8);
+            panel1.Controls.Add(MLbtn8);
+            panel1.Controls.Add(groupBox7);
+            panel1.Controls.Add(MLbtn7);
+            panel1.Controls.Add(groupBox6);
+            panel1.Controls.Add(MLbtn6);
+            panel1.Controls.Add(groupBox5);
+            panel1.Controls.Add(MLbtn5);
+            panel1.Controls.Add(groupBox4);
+            panel1.Controls.Add(groupBox3);
+            panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(label5);
-            panel1.Controls.Add(checkML6);
             panel1.Controls.Add(pictureBox5);
             panel1.Controls.Add(label6);
-            panel1.Controls.Add(checkML7);
             panel1.Controls.Add(pictureBox6);
             panel1.Controls.Add(label7);
-            panel1.Controls.Add(checkML8);
             panel1.Controls.Add(pictureBox7);
             panel1.Controls.Add(label8);
-            panel1.Controls.Add(checkML5);
             panel1.Controls.Add(pictureBox8);
             panel1.Controls.Add(MLbtn2);
             panel1.Controls.Add(label4);
@@ -146,29 +137,334 @@
             panel1.Controls.Add(MLbtn1);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(39, 210);
-            panel1.Margin = new Padding(4, 5, 4, 5);
+            panel1.Location = new Point(27, 123);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1207, 778);
-            panel1.TabIndex = 1;
+            panel1.Size = new Size(845, 472);
+            panel1.TabIndex = 0;
+            // 
+            // groupBox8
+            // 
+            groupBox8.BackColor = Color.White;
+            groupBox8.Controls.Add(radioButton16);
+            groupBox8.Controls.Add(radioButton15);
+            groupBox8.Location = new Point(644, 474);
+            groupBox8.Margin = new Padding(2);
+            groupBox8.Name = "groupBox8";
+            groupBox8.Padding = new Padding(2);
+            groupBox8.Size = new Size(77, 53);
+            groupBox8.TabIndex = 42;
+            groupBox8.TabStop = false;
+            // 
+            // radioButton16
+            // 
+            radioButton16.AutoSize = true;
+            radioButton16.Location = new Point(4, 31);
+            radioButton16.Margin = new Padding(2);
+            radioButton16.Name = "radioButton16";
+            radioButton16.Size = new Size(31, 19);
+            radioButton16.TabIndex = 1;
+            radioButton16.TabStop = true;
+            radioButton16.Text = "L";
+            radioButton16.UseVisualStyleBackColor = true;
+            // 
+            // radioButton15
+            // 
+            radioButton15.AutoSize = true;
+            radioButton15.Location = new Point(4, 11);
+            radioButton15.Margin = new Padding(2);
+            radioButton15.Name = "radioButton15";
+            radioButton15.Size = new Size(36, 19);
+            radioButton15.TabIndex = 0;
+            radioButton15.TabStop = true;
+            radioButton15.Text = "M";
+            radioButton15.UseVisualStyleBackColor = true;
+            // 
+            // MLbtn8
+            // 
+            MLbtn8.BackColor = Color.Transparent;
+            MLbtn8.Location = new Point(725, 474);
+            MLbtn8.Name = "MLbtn8";
+            MLbtn8.Size = new Size(75, 53);
+            MLbtn8.TabIndex = 41;
+            MLbtn8.Text = "Adicionar ao Carrinho";
+            MLbtn8.UseVisualStyleBackColor = false;
+            MLbtn8.Click += MLbtn8_Click_1;
+            // 
+            // groupBox7
+            // 
+            groupBox7.BackColor = Color.White;
+            groupBox7.Controls.Add(radioButton14);
+            groupBox7.Controls.Add(radioButton13);
+            groupBox7.Location = new Point(429, 475);
+            groupBox7.Margin = new Padding(2);
+            groupBox7.Name = "groupBox7";
+            groupBox7.Padding = new Padding(2);
+            groupBox7.Size = new Size(77, 53);
+            groupBox7.TabIndex = 42;
+            groupBox7.TabStop = false;
+            // 
+            // radioButton14
+            // 
+            radioButton14.AutoSize = true;
+            radioButton14.Location = new Point(4, 31);
+            radioButton14.Margin = new Padding(2);
+            radioButton14.Name = "radioButton14";
+            radioButton14.Size = new Size(31, 19);
+            radioButton14.TabIndex = 1;
+            radioButton14.TabStop = true;
+            radioButton14.Text = "L";
+            radioButton14.UseVisualStyleBackColor = true;
+            // 
+            // radioButton13
+            // 
+            radioButton13.AutoSize = true;
+            radioButton13.Location = new Point(4, 11);
+            radioButton13.Margin = new Padding(2);
+            radioButton13.Name = "radioButton13";
+            radioButton13.Size = new Size(36, 19);
+            radioButton13.TabIndex = 0;
+            radioButton13.TabStop = true;
+            radioButton13.Text = "M";
+            radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // MLbtn7
+            // 
+            MLbtn7.BackColor = Color.Transparent;
+            MLbtn7.Location = new Point(510, 475);
+            MLbtn7.Name = "MLbtn7";
+            MLbtn7.Size = new Size(75, 53);
+            MLbtn7.TabIndex = 41;
+            MLbtn7.Text = "Adicionar ao Carrinho";
+            MLbtn7.UseVisualStyleBackColor = false;
+            MLbtn7.Click += MLbtn7_Click_1;
+            // 
+            // groupBox6
+            // 
+            groupBox6.BackColor = Color.White;
+            groupBox6.Controls.Add(radioButton12);
+            groupBox6.Controls.Add(radioButton11);
+            groupBox6.Location = new Point(225, 475);
+            groupBox6.Margin = new Padding(2);
+            groupBox6.Name = "groupBox6";
+            groupBox6.Padding = new Padding(2);
+            groupBox6.Size = new Size(77, 53);
+            groupBox6.TabIndex = 40;
+            groupBox6.TabStop = false;
+            // 
+            // radioButton12
+            // 
+            radioButton12.AutoSize = true;
+            radioButton12.Location = new Point(4, 31);
+            radioButton12.Margin = new Padding(2);
+            radioButton12.Name = "radioButton12";
+            radioButton12.Size = new Size(31, 19);
+            radioButton12.TabIndex = 1;
+            radioButton12.TabStop = true;
+            radioButton12.Text = "L";
+            radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            radioButton11.AutoSize = true;
+            radioButton11.Location = new Point(4, 11);
+            radioButton11.Margin = new Padding(2);
+            radioButton11.Name = "radioButton11";
+            radioButton11.Size = new Size(36, 19);
+            radioButton11.TabIndex = 0;
+            radioButton11.TabStop = true;
+            radioButton11.Text = "M";
+            radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // MLbtn6
+            // 
+            MLbtn6.BackColor = Color.Transparent;
+            MLbtn6.Location = new Point(306, 475);
+            MLbtn6.Name = "MLbtn6";
+            MLbtn6.Size = new Size(75, 53);
+            MLbtn6.TabIndex = 39;
+            MLbtn6.Text = "Adicionar ao Carrinho";
+            MLbtn6.UseVisualStyleBackColor = false;
+            MLbtn6.Click += MLbtn6_Click_1;
+            // 
+            // groupBox5
+            // 
+            groupBox5.BackColor = Color.White;
+            groupBox5.Controls.Add(radioButton10);
+            groupBox5.Controls.Add(radioButton9);
+            groupBox5.Location = new Point(28, 473);
+            groupBox5.Margin = new Padding(2);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Padding = new Padding(2);
+            groupBox5.Size = new Size(77, 53);
+            groupBox5.TabIndex = 40;
+            groupBox5.TabStop = false;
+            // 
+            // radioButton10
+            // 
+            radioButton10.AutoSize = true;
+            radioButton10.Location = new Point(4, 31);
+            radioButton10.Margin = new Padding(2);
+            radioButton10.Name = "radioButton10";
+            radioButton10.Size = new Size(31, 19);
+            radioButton10.TabIndex = 1;
+            radioButton10.TabStop = true;
+            radioButton10.Text = "L";
+            radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            radioButton9.AutoSize = true;
+            radioButton9.Location = new Point(4, 11);
+            radioButton9.Margin = new Padding(2);
+            radioButton9.Name = "radioButton9";
+            radioButton9.Size = new Size(36, 19);
+            radioButton9.TabIndex = 0;
+            radioButton9.TabStop = true;
+            radioButton9.Text = "M";
+            radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // MLbtn5
+            // 
+            MLbtn5.BackColor = Color.Transparent;
+            MLbtn5.Location = new Point(108, 472);
+            MLbtn5.Name = "MLbtn5";
+            MLbtn5.Size = new Size(75, 53);
+            MLbtn5.TabIndex = 39;
+            MLbtn5.Text = "Adicionar ao Carrinho";
+            MLbtn5.UseVisualStyleBackColor = false;
+            MLbtn5.Click += MLbtn5_Click_1;
+            // 
+            // groupBox4
+            // 
+            groupBox4.BackColor = Color.White;
+            groupBox4.Controls.Add(radioButton8);
+            groupBox4.Controls.Add(radioButton7);
+            groupBox4.Location = new Point(644, 207);
+            groupBox4.Margin = new Padding(2);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Padding = new Padding(2);
+            groupBox4.Size = new Size(77, 53);
+            groupBox4.TabIndex = 39;
+            groupBox4.TabStop = false;
+            // 
+            // radioButton8
+            // 
+            radioButton8.AutoSize = true;
+            radioButton8.Location = new Point(4, 31);
+            radioButton8.Margin = new Padding(2);
+            radioButton8.Name = "radioButton8";
+            radioButton8.Size = new Size(31, 19);
+            radioButton8.TabIndex = 1;
+            radioButton8.TabStop = true;
+            radioButton8.Text = "L";
+            radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            radioButton7.AutoSize = true;
+            radioButton7.Location = new Point(4, 11);
+            radioButton7.Margin = new Padding(2);
+            radioButton7.Name = "radioButton7";
+            radioButton7.Size = new Size(36, 19);
+            radioButton7.TabIndex = 0;
+            radioButton7.TabStop = true;
+            radioButton7.Text = "M";
+            radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            groupBox3.BackColor = Color.White;
+            groupBox3.Controls.Add(radioButton6);
+            groupBox3.Controls.Add(radioButton5);
+            groupBox3.Location = new Point(430, 207);
+            groupBox3.Margin = new Padding(2);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Padding = new Padding(2);
+            groupBox3.Size = new Size(77, 53);
+            groupBox3.TabIndex = 40;
+            groupBox3.TabStop = false;
+            // 
+            // radioButton6
+            // 
+            radioButton6.AutoSize = true;
+            radioButton6.Location = new Point(4, 31);
+            radioButton6.Margin = new Padding(2);
+            radioButton6.Name = "radioButton6";
+            radioButton6.Size = new Size(31, 19);
+            radioButton6.TabIndex = 1;
+            radioButton6.TabStop = true;
+            radioButton6.Text = "L";
+            radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            radioButton5.AutoSize = true;
+            radioButton5.Location = new Point(4, 11);
+            radioButton5.Margin = new Padding(2);
+            radioButton5.Name = "radioButton5";
+            radioButton5.Size = new Size(36, 19);
+            radioButton5.TabIndex = 0;
+            radioButton5.TabStop = true;
+            radioButton5.Text = "M";
+            radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.BackColor = Color.White;
+            groupBox2.Controls.Add(radioButton4);
+            groupBox2.Controls.Add(radioButton3);
+            groupBox2.Location = new Point(225, 207);
+            groupBox2.Margin = new Padding(2);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(2);
+            groupBox2.Size = new Size(77, 53);
+            groupBox2.TabIndex = 39;
+            groupBox2.TabStop = false;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(4, 31);
+            radioButton4.Margin = new Padding(2);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(31, 19);
+            radioButton4.TabIndex = 1;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "L";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(4, 11);
+            radioButton3.Margin = new Padding(2);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(36, 19);
+            radioButton3.TabIndex = 0;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "M";
+            radioButton3.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
             groupBox1.BackColor = Color.White;
             groupBox1.Controls.Add(radioButton2);
             groupBox1.Controls.Add(radioButton1);
-            groupBox1.Location = new Point(42, 345);
+            groupBox1.Location = new Point(29, 207);
+            groupBox1.Margin = new Padding(2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(110, 88);
+            groupBox1.Padding = new Padding(2);
+            groupBox1.Size = new Size(77, 53);
             groupBox1.TabIndex = 38;
             groupBox1.TabStop = false;
             // 
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(5, 51);
+            radioButton2.Location = new Point(4, 31);
+            radioButton2.Margin = new Padding(2);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(45, 29);
+            radioButton2.Size = new Size(31, 19);
             radioButton2.TabIndex = 1;
             radioButton2.TabStop = true;
             radioButton2.Text = "L";
@@ -177,9 +473,10 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(5, 19);
+            radioButton1.Location = new Point(4, 11);
+            radioButton1.Margin = new Padding(2);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(53, 29);
+            radioButton1.Size = new Size(36, 19);
             radioButton1.TabIndex = 0;
             radioButton1.TabStop = true;
             radioButton1.Text = "M";
@@ -190,10 +487,9 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.ForeColor = Color.White;
-            label5.Location = new Point(470, 473);
-            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Location = new Point(329, 284);
             label5.Name = "label5";
-            label5.Size = new Size(95, 25);
+            label5.Size = new Size(61, 15);
             label5.TabIndex = 37;
             label5.Text = "Preço: 30€";
             // 
@@ -201,10 +497,9 @@
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
             pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox5.Location = new Point(320, 473);
-            pictureBox5.Margin = new Padding(4, 5, 4, 5);
+            pictureBox5.Location = new Point(224, 284);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(237, 413);
+            pictureBox5.Size = new Size(166, 248);
             pictureBox5.TabIndex = 35;
             pictureBox5.TabStop = false;
             // 
@@ -213,10 +508,9 @@
             label6.AutoSize = true;
             label6.BackColor = Color.Transparent;
             label6.ForeColor = Color.White;
-            label6.Location = new Point(763, 473);
-            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Location = new Point(534, 284);
             label6.Name = "label6";
-            label6.Size = new Size(95, 25);
+            label6.Size = new Size(61, 15);
             label6.TabIndex = 33;
             label6.Text = "Preço: 30€";
             // 
@@ -224,10 +518,9 @@
             // 
             pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
             pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox6.Location = new Point(613, 473);
-            pictureBox6.Margin = new Padding(4, 5, 4, 5);
+            pictureBox6.Location = new Point(429, 284);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(237, 413);
+            pictureBox6.Size = new Size(166, 248);
             pictureBox6.TabIndex = 31;
             pictureBox6.TabStop = false;
             // 
@@ -236,10 +529,9 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.ForeColor = Color.White;
-            label7.Location = new Point(1066, 473);
-            label7.Margin = new Padding(4, 0, 4, 0);
+            label7.Location = new Point(746, 284);
             label7.Name = "label7";
-            label7.Size = new Size(95, 25);
+            label7.Size = new Size(61, 15);
             label7.TabIndex = 29;
             label7.Text = "Preço: 30€";
             // 
@@ -247,10 +539,9 @@
             // 
             pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
             pictureBox7.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox7.Location = new Point(916, 473);
-            pictureBox7.Margin = new Padding(4, 5, 4, 5);
+            pictureBox7.Location = new Point(641, 284);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(237, 413);
+            pictureBox7.Size = new Size(166, 248);
             pictureBox7.TabIndex = 27;
             pictureBox7.TabStop = false;
             // 
@@ -259,10 +550,9 @@
             label8.AutoSize = true;
             label8.BackColor = Color.Transparent;
             label8.ForeColor = Color.White;
-            label8.Location = new Point(190, 473);
-            label8.Margin = new Padding(4, 0, 4, 0);
+            label8.Location = new Point(133, 284);
             label8.Name = "label8";
-            label8.Size = new Size(95, 25);
+            label8.Size = new Size(61, 15);
             label8.TabIndex = 25;
             label8.Text = "Preço: 30€";
             // 
@@ -270,20 +560,18 @@
             // 
             pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
             pictureBox8.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox8.Location = new Point(40, 473);
-            pictureBox8.Margin = new Padding(4, 5, 4, 5);
+            pictureBox8.Location = new Point(28, 284);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(237, 413);
+            pictureBox8.Size = new Size(166, 248);
             pictureBox8.TabIndex = 23;
             pictureBox8.TabStop = false;
             // 
             // MLbtn2
             // 
             MLbtn2.BackColor = Color.Transparent;
-            MLbtn2.Location = new Point(437, 345);
-            MLbtn2.Margin = new Padding(4, 5, 4, 5);
+            MLbtn2.Location = new Point(306, 207);
             MLbtn2.Name = "MLbtn2";
-            MLbtn2.Size = new Size(107, 88);
+            MLbtn2.Size = new Size(75, 53);
             MLbtn2.TabIndex = 22;
             MLbtn2.Text = "Adicionar ao Carrinho";
             MLbtn2.UseVisualStyleBackColor = false;
@@ -294,10 +582,9 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(470, 28);
-            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Location = new Point(329, 17);
             label4.Name = "label4";
-            label4.Size = new Size(95, 25);
+            label4.Size = new Size(61, 15);
             label4.TabIndex = 21;
             label4.Text = "Preço: 30€";
             // 
@@ -305,20 +592,18 @@
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
             pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox4.Location = new Point(320, 28);
-            pictureBox4.Margin = new Padding(4, 5, 4, 5);
+            pictureBox4.Location = new Point(224, 17);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(237, 413);
+            pictureBox4.Size = new Size(166, 248);
             pictureBox4.TabIndex = 19;
             pictureBox4.TabStop = false;
             // 
             // MLbtn3
             // 
             MLbtn3.BackColor = Color.Transparent;
-            MLbtn3.Location = new Point(730, 345);
-            MLbtn3.Margin = new Padding(4, 5, 4, 5);
+            MLbtn3.Location = new Point(511, 207);
             MLbtn3.Name = "MLbtn3";
-            MLbtn3.Size = new Size(107, 88);
+            MLbtn3.Size = new Size(75, 53);
             MLbtn3.TabIndex = 18;
             MLbtn3.Text = "Adicionar ao Carrinho";
             MLbtn3.UseVisualStyleBackColor = false;
@@ -329,10 +614,9 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.ForeColor = Color.White;
-            label3.Location = new Point(763, 28);
-            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Location = new Point(534, 17);
             label3.Name = "label3";
-            label3.Size = new Size(95, 25);
+            label3.Size = new Size(61, 15);
             label3.TabIndex = 17;
             label3.Text = "Preço: 30€";
             // 
@@ -340,20 +624,18 @@
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(613, 28);
-            pictureBox3.Margin = new Padding(4, 5, 4, 5);
+            pictureBox3.Location = new Point(429, 17);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(237, 413);
+            pictureBox3.Size = new Size(166, 248);
             pictureBox3.TabIndex = 15;
             pictureBox3.TabStop = false;
             // 
             // MLbtn4
             // 
             MLbtn4.BackColor = Color.Transparent;
-            MLbtn4.Location = new Point(1033, 345);
-            MLbtn4.Margin = new Padding(4, 5, 4, 5);
+            MLbtn4.Location = new Point(723, 207);
             MLbtn4.Name = "MLbtn4";
-            MLbtn4.Size = new Size(107, 88);
+            MLbtn4.Size = new Size(75, 53);
             MLbtn4.TabIndex = 14;
             MLbtn4.Text = "Adicionar ao Carrinho";
             MLbtn4.UseVisualStyleBackColor = false;
@@ -364,10 +646,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(1066, 28);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(746, 17);
             label2.Name = "label2";
-            label2.Size = new Size(95, 25);
+            label2.Size = new Size(61, 15);
             label2.TabIndex = 13;
             label2.Text = "Preço: 30€";
             // 
@@ -375,20 +656,18 @@
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(916, 28);
-            pictureBox2.Margin = new Padding(4, 5, 4, 5);
+            pictureBox2.Location = new Point(641, 17);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(237, 413);
+            pictureBox2.Size = new Size(166, 248);
             pictureBox2.TabIndex = 11;
             pictureBox2.TabStop = false;
             // 
             // MLbtn1
             // 
             MLbtn1.BackColor = Color.Transparent;
-            MLbtn1.Location = new Point(157, 345);
-            MLbtn1.Margin = new Padding(4, 5, 4, 5);
+            MLbtn1.Location = new Point(110, 207);
             MLbtn1.Name = "MLbtn1";
-            MLbtn1.Size = new Size(107, 88);
+            MLbtn1.Size = new Size(75, 53);
             MLbtn1.TabIndex = 10;
             MLbtn1.Text = "Adicionar ao Carrinho";
             MLbtn1.UseVisualStyleBackColor = false;
@@ -399,10 +678,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(190, 28);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(133, 17);
             label1.Name = "label1";
-            label1.Size = new Size(95, 25);
+            label1.Size = new Size(61, 15);
             label1.TabIndex = 9;
             label1.Text = "Preço: 30€";
             // 
@@ -410,19 +688,19 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(40, 28);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
+            pictureBox1.Location = new Point(28, 17);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(237, 413);
+            pictureBox1.Size = new Size(166, 248);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // bttn_anterior
             // 
             bttn_anterior.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bttn_anterior.Location = new Point(1004, 143);
+            bttn_anterior.Location = new Point(703, 86);
+            bttn_anterior.Margin = new Padding(2);
             bttn_anterior.Name = "bttn_anterior";
-            bttn_anterior.Size = new Size(111, 33);
+            bttn_anterior.Size = new Size(78, 20);
             bttn_anterior.TabIndex = 7;
             bttn_anterior.Text = "Anterior";
             bttn_anterior.UseVisualStyleBackColor = true;
@@ -432,9 +710,10 @@
             // 
             bttn_sair.BackColor = Color.Transparent;
             bttn_sair.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            bttn_sair.Location = new Point(1134, 143);
+            bttn_sair.Location = new Point(794, 86);
+            bttn_sair.Margin = new Padding(2);
             bttn_sair.Name = "bttn_sair";
-            bttn_sair.Size = new Size(111, 33);
+            bttn_sair.Size = new Size(78, 20);
             bttn_sair.TabIndex = 6;
             bttn_sair.Text = "Sair";
             bttn_sair.UseVisualStyleBackColor = false;
@@ -446,9 +725,10 @@
             LabelUtilizador.BackColor = Color.Transparent;
             LabelUtilizador.Font = new Font("Microsoft Sans Serif", 11F, FontStyle.Regular, GraphicsUnit.Point);
             LabelUtilizador.ForeColor = Color.FromArgb(192, 0, 192);
-            LabelUtilizador.Location = new Point(580, 143);
+            LabelUtilizador.Location = new Point(406, 86);
+            LabelUtilizador.Margin = new Padding(2, 0, 2, 0);
             LabelUtilizador.Name = "LabelUtilizador";
-            LabelUtilizador.Size = new Size(70, 26);
+            LabelUtilizador.Size = new Size(46, 18);
             LabelUtilizador.TabIndex = 13;
             LabelUtilizador.Text = "label3";
             // 
@@ -461,9 +741,10 @@
             bttn_carrinho.FlatStyle = FlatStyle.Popup;
             bttn_carrinho.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             bttn_carrinho.ForeColor = Color.FromArgb(192, 0, 192);
-            bttn_carrinho.Location = new Point(147, 112);
+            bttn_carrinho.Location = new Point(103, 67);
+            bttn_carrinho.Margin = new Padding(2);
             bttn_carrinho.Name = "bttn_carrinho";
-            bttn_carrinho.Size = new Size(81, 73);
+            bttn_carrinho.Size = new Size(57, 44);
             bttn_carrinho.TabIndex = 14;
             bttn_carrinho.UseVisualStyleBackColor = false;
             bttn_carrinho.Click += bttn_carrinho_Click;
@@ -474,18 +755,19 @@
             numero_itens.BackColor = Color.Transparent;
             numero_itens.Font = new Font("Microsoft Sans Serif", 11F, FontStyle.Regular, GraphicsUnit.Point);
             numero_itens.ForeColor = Color.FromArgb(192, 0, 192);
-            numero_itens.Location = new Point(237, 158);
+            numero_itens.Location = new Point(166, 95);
+            numero_itens.Margin = new Padding(2, 0, 2, 0);
             numero_itens.Name = "numero_itens";
-            numero_itens.Size = new Size(24, 26);
+            numero_itens.Size = new Size(16, 18);
             numero_itens.TabIndex = 17;
             numero_itens.Text = "?";
             // 
             // Menlegs
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1263, 1023);
+            ClientSize = new Size(884, 717);
             Controls.Add(numero_itens);
             Controls.Add(bttn_carrinho);
             Controls.Add(LabelUtilizador);
@@ -493,11 +775,24 @@
             Controls.Add(bttn_sair);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 5, 4, 5);
             Name = "Menlegs";
             Text = "Menlegs";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            groupBox8.ResumeLayout(false);
+            groupBox8.PerformLayout();
+            groupBox7.ResumeLayout(false);
+            groupBox7.PerformLayout();
+            groupBox6.ResumeLayout(false);
+            groupBox6.PerformLayout();
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
@@ -543,5 +838,30 @@
         private GroupBox groupBox1;
         private RadioButton radioButton1;
         private RadioButton radioButton2;
+        private GroupBox groupBox3;
+        private RadioButton radioButton6;
+        private RadioButton radioButton5;
+        private GroupBox groupBox2;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private GroupBox groupBox4;
+        private RadioButton radioButton8;
+        private RadioButton radioButton7;
+        private GroupBox groupBox6;
+        private RadioButton radioButton12;
+        private RadioButton radioButton11;
+        private Button MLbtn6;
+        private GroupBox groupBox5;
+        private RadioButton radioButton10;
+        private RadioButton radioButton9;
+        private Button MLbtn5;
+        private GroupBox groupBox7;
+        private RadioButton radioButton14;
+        private RadioButton radioButton13;
+        private Button MLbtn7;
+        private GroupBox groupBox8;
+        private RadioButton radioButton16;
+        private RadioButton radioButton15;
+        private Button MLbtn8;
     }
 }
